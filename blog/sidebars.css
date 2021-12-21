@@ -7,7 +7,7 @@ html {
   height: -webkit-fill-available;
 }
 
-main {
+/* main {
   display: flex;
   flex-wrap: nowrap;
   height: 100vh;
@@ -15,7 +15,7 @@ main {
   max-height: 100vh;
   overflow-x: auto;
   overflow-y: hidden;
-}
+} */
 
 .b-example-divider {
   flex-shrink: 0;
@@ -51,7 +51,7 @@ main {
 .btn-toggle:hover,
 .btn-toggle:focus {
   color: rgba(0, 0, 0, .85);
-  background-color: #d2f4ea;
+  background-color: #a8e0fa;
 }
 
 .btn-toggle::before {
@@ -78,7 +78,7 @@ main {
 }
 .btn-toggle-nav a:hover,
 .btn-toggle-nav a:focus {
-  background-color: #d2f4ea;
+  background-color: #a8e0fa;
 }
 
 .scrollarea {
