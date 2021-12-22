@@ -10,8 +10,8 @@
     </div>
   </header>
 
-<div class="nav-scroller py-1 mb-2 border-bottom">
-    <nav class="nav justify-content-between">
+<div class="nav-scroller py-1 mb-2 border-bottom ">
+    <nav class="nav justify-content-between scrollbar-div">
       <a class="p-2 link-secondary" href="#">Working competition in Welding</a>
       <a class="nav-link dropdown-toggle link-secondary p-2" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Modules</a>
         <ul class="dropdown-menu scrollable-menu px-2" id="myDropDown" role="menu">

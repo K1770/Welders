@@ -13,8 +13,10 @@
 
   /* desktop video */
   .embed-responsive-item {
-    height: 26rem;
-    width: 46rem;
+    /* height: 30vh; */
+    /* width: 30vh; */
+    /* height: 26rem; */
+    /* width: 46rem; */
   }
 
   .menu-ul {
