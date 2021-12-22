@@ -39,7 +39,7 @@
 
 </div>
 
-<main class="container container2">
+<main class="container container2 mt-2">
   <div class="p-4  mb-4 text-white rounded bg-dark" >
     <div class="col-md-8 px-0">
       <h1 class="display-6 fst-italic">The main information about our site</h1>
