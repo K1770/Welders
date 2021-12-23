@@ -3,17 +3,20 @@
 
 <head>
   <title>English for welders</title>
-  <?php include('links-style.php');
-  
-  ?>
+  <?php include('../../links-style-main.php') ?>
 
+  <link href="../../blog.css" rel="stylesheet">
+  <link href="../../style-main.css" rel="stylesheet">
+  <link href="../../sidebars.css" rel="stylesheet">
+  <link href="../../../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- $lines = file($_SERVER['DOCUMENT_ROOT'] . "\\public\\pages.txt"); -->
+  <script src="../../sidebars.js"></script>
+  <script src="../../../assets/dist/js/bootstrap.bundle.min.js"></script> <!-- top menu -->
 </head>
 
 <body>
   <div class="container">
-    <?php include ('header.php');?>
+    <?php include ('../../header.php');?>
   </div>
 
   <main class="container container2">
@@ -61,7 +64,7 @@
 
   </main>
 
-  <?php include('footer.php') ?>
+  <?php include('../../footer.php') ?>
 
 </body>
 
