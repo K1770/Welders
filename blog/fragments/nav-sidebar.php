@@ -1,6 +1,6 @@
 <!-- <h1><?php echo $category1; ?></h1> -->
 
-<div class="flex-shrink-0 p-3 bg-white" hi>
+<div class="flex-shrink-0 px-3 pt-3 bg-white" hi>
     <div class="text-center">
         <span class="fs-4 fw-semibold" ">Menu</span>
             <div class=" border-bottom">
@@ -36,3 +36,13 @@
     </li>
 </ul>
 </div> <!-- menu-->
+
+<script>
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+        let collapsedElements = document.getElementsByClassName("collapse");
+
+        for (let i = 0; i < collapsedElements.length; i++) {
+            collapsedElements[i].classList.toggle("show");
+        }
+    }
+</script>

@@ -28,9 +28,9 @@
 
       <div class="col-md-3">
         <?php includeWithVariables('../../../fragments/nav-sidebar.php', 
-        array('categoryLink1' => 'Basic Information 1',
-              'categoryLink2' => 'Basic Information 2',
-              'categoryLink3' => 'Basic Information 3',), 
+        array('categoryLink1' => '../basic-information',
+              'categoryLink2' => '../video',
+              'categoryLink3' => '../vocabulary'), 
               array('The history of weilding' => 'topicLink1',
               'What welders do' => ' topicLink2',
               'Welding equipment and materials' => 'topicLink3')); ?>
