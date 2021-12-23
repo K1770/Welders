@@ -2,12 +2,19 @@
 <html lang="en">
   <head>
     <title>English for welders</title>
-    <?php include('links-style.php') ?>
+    <?php include('fragments/links-style.php') ?>
+  <link href="css/blog.css" rel="stylesheet">
+  <link href="css/style-main.css" rel="stylesheet">
+  <link href="css/sidebars.css" rel="stylesheet">
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="js/sidebars.js"></script>
+  <!-- <script src="assets/dist/js/bootstrap.bundle.min.js"></script> top menu -->
   </head>
   <body>
 
 <div class="container">
-  <?php include ('header.php');?>
+  <?php include ('fragments/header.php');?>
   
   <nav class="navbar navbar-expand-sm navbar-light " aria-label="Third navbar example" hidden>
     <div class="container-fluid">
@@ -55,7 +62,7 @@
             <strong class="d-inline-block mb-2 text-primary">About</strong>
             <h3 class="mb-0">Module I</h3>
             <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <a href="module-1.php" class="stretched-link">Continue reading</a>
+            <a href="module-1/index.php" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">
             <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
@@ -116,6 +123,6 @@
  </div>
 
 </main>
-  <?php include('footer.php') ?>
+  <?php include('fragments/footer.php') ?>
   </body>
 </html>
