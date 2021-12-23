@@ -6,18 +6,22 @@
   user-select: none;
 }
 
+
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
 
   /* desktop video */
-  .embed-responsive-item {
-    /* height: 30vh; */
-    /* width: 30vh; */
-    /* height: 26rem; */
-    /* width: 46rem; */
-  }
+  /* .embed-responsive-item {
+      height: 20rem;
+     width: 80%; 
+
+
+     width: 100%;
+     height: auto;
+     max-height: 100%;  
+  } */
 
   .menu-ul {
     text-align: left !important;
@@ -30,20 +34,34 @@
   .a-menu{
     width: 80%;
   }
+
+  /* for img on module card */
+  .card-module{
+    display: flex!important;
+  } 
+
+}
+
+/* middle */
+@media (max-width: 1100px) {
+  /* .embed-responsive-item {
+  height: 16rem!important;
+  width: 80%!important;
+  } */
 }
 
 @media only screen and (max-width: 768px) {
 
   /* for no scratch card body */
-  .d-flex {
+  /* .d-flex {
     display: inline !important;
-  }
+  } */
 
   /* mobile video*/
-  .embed-responsive-item {
-    height: 13rem;
-    width: 23rem;
-  }
+  /* .embed-responsive-item {
+    height: 13rem!important;
+    width: 100%!important;
+  } */
 
   .menu-ul {
     text-align: center !important;
@@ -60,6 +78,11 @@
     text-align: center;
     justify-content: center;
   }
+
+  /* for img on module card */
+  .card-module{
+    display: inline!important;
+  } 
 
 }
 
@@ -127,4 +150,21 @@ footer {
 
 .p-main {
   margin-bottom: 0.25rem;
+}
+
+/* video youtube */
+.thumb-wrap {
+  position: relative;
+  padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  height: 0;
+  overflow: hidden;
+}
+.thumb-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-width: 0;
+  outline-width: 0;
 }
