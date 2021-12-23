@@ -27,13 +27,19 @@
       <div class="row">
 
         <div class="col-md-3">
-        <?php includeWithVariables('../../../fragments/nav-sidebar.php', 
-        array('categoryLink1' => 'Basic Information 1',
-              'categoryLink2' => 'Basic Information 2',
-              'categoryLink3' => 'Basic Information 3',), 
-              array('The history of weilding' => 'topicLink1',
+          <?php includeWithVariables(
+            '../../../fragments/nav-sidebar.php',
+            array(
+              'categoryLink1' => '../basic-information',
+              'categoryLink2' => '../video',
+              'categoryLink3' => '../vocabulary'
+            ),
+            array(
+              'The history of weilding' => '../../the-history-of-weilding',
               'What welders do' => ' topicLink2',
-              'Welding equipment and materials' => 'topicLink3')); ?>
+              'Welding equipment and materials' => 'topicLink3'
+            )
+          ); ?>
         </div> <!-- col-md-3-->
 
         <div class="col-md-9">
@@ -43,22 +49,22 @@
           </div>
 
           <div class="justify-content-centers m-4">
-          <div class="bd-example mb-1" bis_skin_checked="1">
-            <div class="embed-responsive embed-responsive-16by9 thumb-wrap" bis_skin_checked="1">
-              <iframe class="embed-responsive-item" width=" " height=" " src="https://www.youtube.com/embed/smKKTH4WvFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="bd-example mb-1" bis_skin_checked="1">
+              <div class="embed-responsive embed-responsive-16by9 thumb-wrap" bis_skin_checked="1">
+                <iframe class="embed-responsive-item" width=" " height=" " src="https://www.youtube.com/embed/smKKTH4WvFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="bd-example mb-1" bis_skin_checked="1">
+              <div class="embed-responsive embed-responsive-16by9 thumb-wrap" bis_skin_checked="1">
+                <iframe class="embed-responsive-item" width=" " height=" " src="https://www.youtube.com/embed/hqo3lyDMlwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="bd-example mb-1" bis_skin_checked="1">
+              <div class="embed-responsive embed-responsive-16by9 thumb-wrap" bis_skin_checked="1">
+                <iframe class="embed-responsive-item" width=" " height=" " src="https://www.youtube.com/embed/C6JQ2-7zu0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
           </div>
-          <div class="bd-example mb-1" bis_skin_checked="1">
-            <div class="embed-responsive embed-responsive-16by9 thumb-wrap" bis_skin_checked="1">
-              <iframe class="embed-responsive-item" width=" " height=" " src="https://www.youtube.com/embed/hqo3lyDMlwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-          <div class="bd-example mb-1" bis_skin_checked="1">
-            <div class="embed-responsive embed-responsive-16by9 thumb-wrap" bis_skin_checked="1">
-              <iframe class="embed-responsive-item" width=" " height=" " src="https://www.youtube.com/embed/C6JQ2-7zu0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
         </div> <!-- col-md-8 -->
 
       </div>
