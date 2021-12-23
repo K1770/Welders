@@ -22,9 +22,9 @@
         <?php includeWithVariables('nav-sidebar.php', array('categoryLink1' => 'Basic Information 1',
                                                             'categoryLink2' => 'Basic Information 2',
                                                             'categoryLink3' => 'Basic Information 3',), 
-                                                      array('topicLink1' => 'The history of weilding',
-                                                            'topicLink2' => 'What welders do',
-                                                            'topicLink3' => 'Welding equipment and materials',)); ?>
+                                                      array('The history of weilding' => 'topicLink1',
+                                                      'What welders do' => ' topicLink2',
+                                                      'Welding equipment and materials' => 'topicLink3')); ?>
       </div> <!-- col-md-3 -->
 
       <div class="col-md-8">

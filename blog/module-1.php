@@ -22,7 +22,7 @@
 
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 justify-content-center ">
 
-          <div class="col d-flex align-items-stretch justify-content-center">
+          <div class="col align-items-stretch justify-content-center card-module">
               <div class="card shadow-sm">
                 <img class="card-img-top" src="welder module1.jpg">
             
@@ -31,7 +31,7 @@
                 </div>
               </div>
           </div> <!-- col end-->
-          <div class="col d-flex align-items-stretch justify-content-center">
+          <div class="col d-flex align-items-stretch justify-content-center card-module">
             <div class="card shadow-sm">
               <img class="card-img-top" src="welder module2.jpg">
 
@@ -40,7 +40,7 @@
               </div>
             </div>
           </div> <!-- col end-->
-          <div class="col d-flex align-items-stretch justify-content-center">
+          <div class="col d-flex align-items-stretch justify-content-center card-module">
             <div class="card shadow-sm">
               <img class="card-img-top" src="welder module3.jpg">
 

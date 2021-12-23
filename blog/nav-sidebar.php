@@ -28,7 +28,7 @@
             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                 <?php
                 foreach ($topicLinks as $key => $value) {
-                    echo '<li><a href="' . $key . '" class="link-dark rounded a-menu">' . $value . '</a></li>';
+                    echo '<li><a href="' . $value . '" class="link-dark rounded a-menu">' . $key . '</a></li>';
                 }
                 ?>
             </ul>
