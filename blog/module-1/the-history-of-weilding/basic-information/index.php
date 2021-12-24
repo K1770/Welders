@@ -7,6 +7,7 @@
 
   <link href="../../../css/blog.css" rel="stylesheet">
   <link href="../../../css/style-main.css" rel="stylesheet">
+  <link href="../../../css/style-basic.css" rel="stylesheet">
   <link href="../../../css/sidebars.css" rel="stylesheet">
   <link href="../../../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -36,7 +37,7 @@
               'Welding equipment and materials' => 'topicLink3')); ?>
       </div> <!-- col-md-3 -->
 
-      <div class="col-md-8">
+      <div class="col-md-9">
 
         <div class="py-1 text-center container ">
           <h2 class="fw-light">The history of welding</h2>
@@ -46,7 +47,7 @@
 
         <div>
         <div class="text-center mb-2">
-          <img class="text-center" src="_img/img1.png">
+          <img class="text-center img-basic" src="_img/img1.png">
         </div>
 
         <div>
@@ -72,7 +73,7 @@
         </div>
 
         <div class="text-center mb-2">
-          <img class="text-center" src="_img/img2.png">
+          <img class="text-center img-basic" src="_img/img2.png">
         </div>
 
         <div>
@@ -95,7 +96,7 @@
 
         <div>
           <div class="text-center mb-2">
-            <img class="text-center" src="_img/img3.png">
+            <img class="text-center img-basic" src="_img/img3.png">
           </div>
           
           <div>
