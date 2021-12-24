@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+  .img-basic{
+    width: 45vw;
+  }
+}
+
+/* middle */
+@media (max-width: 1100px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+  .img-basic{
+    width: 85vw;
+  }
+}

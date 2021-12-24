@@ -48,11 +48,11 @@
               'Welding equipment and materials' => 'topicLink3')); ?>
         </div> <!-- col-md-3 -->
 
-        <div class="col-md-8">
+        <div class="col-md-9">
           <div class="content"> 
 
           <div class="py-1 text-center container ">
-            <h2 class="fw-light">The history of welding (Vocabulary)</h2>
+            <h2 class="fw-light">Vocabulary - The history of welding</h2>
           </div>
 
           <p>
