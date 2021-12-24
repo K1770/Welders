@@ -144,6 +144,9 @@ footer {
 
 /* basic information */
 .p-first-words {
+  margin-left: 2.5rem;
+}
+.p-first-words-bold {
   font-weight: 700 !important;
   margin-left: 2.5rem;
 }

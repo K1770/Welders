@@ -44,7 +44,7 @@
               <img class="card-img-top" src="_img/welder-module2.jpg">
 
               <div class="card-body text-center justify-content-center d-flex align-items-center">
-                <p class="card-text fw-bold fs-5"><a href="#" class="stretched-link nice-link">What welders do</a></p>
+                <p class="card-text fw-bold fs-5"><a href="what-welders-do" class="stretched-link nice-link">What welders do</a></p>
               </div>
             </div>
           </div> <!-- col end-->
