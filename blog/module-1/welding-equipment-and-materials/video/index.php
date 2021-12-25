@@ -45,23 +45,24 @@
         <div class="col-md-9">
 
           <div class="pt-1 text-center container">
-            <h2 class="fw-light">The history of welding</h2>
+          <h2 class="fw-light">What is welding and what do welders do?</h2>
           </div>
+
 
           <div class="justify-content-centers m-4">
             <div class="bd-example mb-1" bis_skin_checked="1">
-              <div class="embed-responsive embed-responsive-16by9 thumb-wrap" bis_skin_checked="1">
-                <iframe class="embed-responsive-item" width=" " height=" " src="https://www.youtube.com/embed/smKKTH4WvFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="embed-responsive embed-responsive-16by9 thumb-wrap" bis_skin_checked=" ">
+                <iframe class="embed-responsive-item" width=" " height=" " src="https://www.youtube.com/embed/BPwdmJFqnDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
             <div class="bd-example mb-1" bis_skin_checked="1">
               <div class="embed-responsive embed-responsive-16by9 thumb-wrap" bis_skin_checked="1">
-                <iframe class="embed-responsive-item" width=" " height=" " src="https://www.youtube.com/embed/hqo3lyDMlwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" width=" " height=" " src="https://www.youtube.com/embed/9EOG6Cxihhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
             <div class="bd-example mb-1" bis_skin_checked="1">
               <div class="embed-responsive embed-responsive-16by9 thumb-wrap" bis_skin_checked="1">
-                <iframe class="embed-responsive-item" width=" " height=" " src="https://www.youtube.com/embed/C6JQ2-7zu0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" width=" " height=" " src="https://www.youtube.com/embed/JwXmVDifBB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
           </div>
