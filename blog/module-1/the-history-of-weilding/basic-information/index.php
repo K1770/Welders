@@ -32,8 +32,8 @@
         array('categoryLink1' => '../basic-information',
               'categoryLink2' => '../video',
               'categoryLink3' => '../vocabulary'), 
-              array('The history of weilding' => 'topicLink1',
-              'What welders do' => ' topicLink2',
+              array('The history of weilding' => '../../the-history-of-weilding',
+              'What welders do' => '../../what-welders-do',
               'Welding equipment and materials' => 'topicLink3')); ?>
       </div> <!-- col-md-3 -->
 

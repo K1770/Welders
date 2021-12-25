@@ -3,7 +3,7 @@
       <div class="col-4 pt-1">
       </div>
       <div class="col-4 text-center">
-        <a class="blog-header-logo text-dark" href="/Welders/blog">English for welders</a>
+        <a class="blog-header-logo text-dark" href="/Welders/blog">English for welders </a>
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
       </div>

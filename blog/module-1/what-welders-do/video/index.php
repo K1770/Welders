@@ -36,7 +36,7 @@
             ),
             array(
               'The history of weilding' => '../../the-history-of-weilding',
-              'What welders do' => ' topicLink2',
+              'What welders do' => '../../what-welders-do',
               'Welding equipment and materials' => 'topicLink3'
             )
           ); ?>
