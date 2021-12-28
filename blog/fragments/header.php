@@ -29,7 +29,7 @@
         </ul>
       <a class="p-2 link-secondary" href="/Welders/blog/podcasts.php">Podcasts</a>
       <a class="p-2 link-secondary" href="/Welders/blog/quizlet.php">Quizlet</a>
-      <a class="p-2 link-secondary" href="https://primeweld.com/blogs/news">Weding news</a>
+      <a class="p-2 link-secondary" href="https://primeweld.com/blogs/news">Welding news</a>
       <a class="p-2 link-secondary" href="#">Learn more</a>
     </nav>
   </div>
