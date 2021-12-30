@@ -34,7 +34,8 @@
               <div class="card shadow-sm">
                 <img class="card-img-top" src="_img/welder-module1.jpg">
             
-                <div class="card-body text-center justify-content-center d-flex align-items-center">
+
+                <div class=" card-body text-center justify-content-center d-flex align-items-center">
                   <p class="card-text fw-bold fs-5"><a href="the-history-of-weilding" class="stretched-link nice-link">The history of weilding</a></p>
                 </div>
               </div>

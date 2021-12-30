@@ -13,4 +13,7 @@
   .img-basic{
     width: 85vw;
   }
+  #drag-to-scroll-header {
+    cursor: grab;
+  }
 }

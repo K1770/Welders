@@ -3,21 +3,23 @@
 
 <head>
   <title>English for welders</title>
-  <?php include('../../fragments/links-style-main.php') ?>
+  <?php include('../../fragments/links-style-main.php'); ?>
 
-  <link href="../../css/blog.css" rel="stylesheet">
-  <link href="../../css/style-main.css" rel="stylesheet">
-  <link href="../../css/sidebars.css" rel="stylesheet">
-  <link href="../../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/Welders/blog/css/blog.css" rel="stylesheet">
+  <link href="/Welders/blog/css/style-main.css" rel="stylesheet">
+  <link href="/Welders/blog/css/sidebars.css" rel="stylesheet">
+  <link href="/Welders/blog/assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <script src="../../js/sidebars.js"></script>
-  <script src="../../assets/dist/js/bootstrap.bundle.min.js"></script> <!-- top menu -->
+  <script src="/Welders/blog/js/sidebars.js"></script>
+  <script src="/Welders/blog/assets/dist/js/bootstrap.bundle.min.js"></script> <!-- top menu -->
 </head>
 
 <body>
 
   <div class="container">
-    <?php include('../../fragments/header.php'); ?>
+    <?php
+    include('../../fragments/header.php');
+    ?>
   </div>
 
   <main class="container container2">
