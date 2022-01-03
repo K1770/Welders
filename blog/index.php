@@ -3,6 +3,7 @@
 
 <head>
   <title>English for welders</title>
+  
   <?php include('fragments/links-style.php') ?>
   <link href="css/blog.css" rel="stylesheet">
   <link href="css/style-main.css" rel="stylesheet">
@@ -28,6 +29,7 @@
       cursor: grab;
       overflow: auto;
     }
+
   </style>
 </head>
 

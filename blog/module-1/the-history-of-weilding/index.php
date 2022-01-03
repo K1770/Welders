@@ -25,7 +25,7 @@
   <main class="container container2">
 
     <div class="py-1 text-center container ">
-      <h2 class="fw-light">Select category</h2>
+      <h2 class="fw-light">The history of weilding - Categories</h2>
     </div>
 
     <div class="album py-2 bg-white">

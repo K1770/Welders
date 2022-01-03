@@ -68,7 +68,7 @@
               <h2 class="fw-light">What do welders do?</h2>
             </div>
             <p align="center">
-              <strong>Equipment in welding</strong>
+              <h5 class="text-center">Equipment in welding</h5>
             </p>
             <p>
               <strong>1. </strong>

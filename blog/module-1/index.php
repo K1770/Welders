@@ -22,7 +22,7 @@
   <main class="container container2">
 
     <div class="py-1 text-center container ">
-      <h2 class="fw-light">Topics</h2>
+      <h2 class="fw-light">Module 1 - Topics</h2>
     </div>
 
     <div class="album py-2 bg-white">
@@ -34,7 +34,6 @@
               <div class="card shadow-sm">
                 <img class="card-img-top" src="_img/welder-module1.jpg">
             
-
                 <div class=" card-body text-center justify-content-center d-flex align-items-center">
                   <p class="card-text fw-bold fs-5"><a href="the-history-of-weilding" class="stretched-link nice-link">The history of weilding</a></p>
                 </div>
