@@ -12,7 +12,7 @@
   <script src="js/sidebars.js"></script>
   <style>
     .shadow-for-white-text {
-      text-shadow: 1px 1px 2px black;
+      text-shadow: 2px 1px 2px black;
     }
 
     .link-card {
@@ -78,7 +78,7 @@
 
           <div class="col text-white align-items-stretch justify-content-center card-module text-center">
             <div class="card shadow-sm">
-              <img class="card-img-top" src="_img/health-and-safety-prevention.png">
+              <img class="card-img-top" src="_img/metal-work_rectangle.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
                   <a href="basic-information" class="stretched-link link-card">Metalwork</a>
@@ -89,7 +89,7 @@
 
           <div class="col text-white align-items-stretch justify-content-center card-module text-center">
             <div class="card shadow-sm">
-              <img class="card-img-top" src="_img/health-and-safety-prevention.png">
+              <img class="card-img-top" src="_img/symbols.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
                   <a href="basic-information" class="stretched-link link-card">Symbols in welding</a>
@@ -104,7 +104,7 @@
 
           <div class="col text-white align-items-stretch justify-content-center card-module text-center">
             <div class="card shadow-sm">
-              <img class="card-img-top" src="_img/health-and-safety-prevention.png">
+              <img class="card-img-top" src="_img/glossary2.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
                   <a href="basic-information" class="stretched-link link-card">Glossary</a>
@@ -116,7 +116,7 @@
 
           <div class="col text-white align-items-stretch justify-content-center card-module text-center">
             <div class="card shadow-sm">
-              <img class="card-img-top" src="_img/health-and-safety-prevention.png">
+              <img class="card-img-top" src="_img/test.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
                   <a href="basic-information" class="stretched-link link-card">Test</a>
