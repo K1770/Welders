@@ -39,6 +39,11 @@
       left: 0;
       right: 0;
     }
+
+    .wrap_images {
+      width: 100%;
+      height: auto;
+    }
   </style>
 </head>
 
@@ -50,10 +55,37 @@
 
   <main class="container container2 mt-2">
 
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <img class="wrap_images" src="_img/handbook1.png" />
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      Launch demo modal
-    </button>
+    <div class="row">
+      <div class="col-3 d-flex justify-content-center">
+        <button type="button" class="btn btn-primary btn-block w-50" name="myButton1" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="myAlert(this)">
+          1
+        </button>
+      </div>
+      <div class="col-3 d-flex justify-content-center">
+        <button type="button" class="btn btn-primary btn-block w-50" name="myButton2" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="myAlert(this)">
+          2
+        </button>
+      </div>
+      <div class="col-3 d-flex justify-content-center">
+        <button type="button" class="btn btn-primary btn-block w-50" name="myButton3" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="myAlert(this)">
+          3
+        </button>
+      </div>
+      <div class="col-3 d-flex justify-content-center">
+        <button type="button" class="btn btn-primary btn-block w-50" name="myButton4" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="myAlert(this)">
+          4
+        </button>
+      </div>
+    </div>
 
     <!-- Modal -->
     <div class="modal fade w-100" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -67,10 +99,9 @@
               Название слова
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Non consectetur nihil quos earum quod consequuntur eius fugiat id nisi laudantium expedita eveniet ea soluta iste, sapiente facere tempora laborum quaerat?
             </div>
-            <!-- <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div> -->
+            <!-- <div class="modal-footer"> -->
+            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+            <!-- </div> -->
           </div>
         </div>
       </div>
@@ -78,6 +109,39 @@
     </div>
 
   </main>
+
+  <script>
+    function myAlert(button) {
+      let buttonName = button.name;
+      let newLabel = "";
+      let newTextBody = "";
+      switch (buttonName) {
+        case 'myButton1': {
+          newLabel = "Igor1";
+          newTextBody = "body 1";
+          break;
+        }
+        case 'myButton2': {
+          newLabel = "Igor2";
+          newTextBody = "body 2";
+          break;
+        }
+        case 'myButton3': {
+          newLabel = "Igor3";
+          newTextBody = "body 3";
+          break;
+        }
+        case 'myButton4': {
+          newLabel = "Igor4";
+          newTextBody = "body 4";
+          break;
+        }
+
+      }
+      $('#exampleModalLabel').text(newLabel);
+      $('.modal-body:eq(0)').text(newTextBody);
+    }
+  </script>
   <!-- <?php include('fragments/footer.php') ?> -->
 </body>
 
