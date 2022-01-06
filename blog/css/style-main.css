@@ -171,3 +171,10 @@ footer {
   border-width: 0;
   outline-width: 0;
 }
+
+.black{
+  color: black;
+}
+.white{
+  color: white;
+}

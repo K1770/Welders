@@ -1,12 +1,10 @@
-<!-- <h1><?php echo $category1; ?></h1> -->
-
 <div class="flex-shrink-0 px-3 pt-3 bg-white">
 
     <ul class="list-unstyled ps-0 menu-ul">
         <li class="mb-1">
             <div>
-                <button class="btn btn-toggle align-items-center rounded collapsed btn-menu p-0 mb-1" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
-                    <b class="h4">Menu</b>
+                <button class="btn btn-toggle just-center align-items-center rounded collapsed btn-menu p-0 mb-1" style="color: black;" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                    <b class="h4 mb-0">Menu</b>
                 </button>
                 <div class="border-bottom mb-2">
                 </div>
@@ -18,7 +16,9 @@
                             <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm position-relative">
                                 <div class="col py-2 px-4 d-flex flex-column position-static">
                                     <div class="just-center w-100">
-                                        <h3 class="mb-0">Module I</h3>
+                                        <a draggable="false" href="/Welders/blog/module-1" class="stretched-link mb-0 text-decoration-none black">
+                                            <h4 class="mb-0">Module I</h4>
+                                        </a>
                                     </div>
                                     <!-- <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p> -->
                                 </div>
@@ -28,7 +28,9 @@
                             <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm position-relative">
                                 <div class="col py-2 px-4 d-flex flex-column position-static">
                                     <div class="just-center w-100">
-                                        <h3 class="mb-0">Module II</h3>
+                                    <a draggable="false" href="/Welders/blog/module-1" class="stretched-link mb-0 text-decoration-none black">
+                                            <h4 class="mb-0">Module II</h4>
+                                        </a>
                                     </div>
                                     <!-- <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p> -->
                                 </div>
@@ -38,7 +40,9 @@
                             <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm position-relative">
                                 <div class="col py-2 px-4 d-flex flex-column position-static">
                                     <div class="just-center w-100">
-                                        <h3 class="mb-0">Module III</h3>
+                                    <a draggable="false" href="/Welders/blog/module-1" class="stretched-link mb-0 text-decoration-none black">
+                                            <h4 class="mb-0">Module III</h4>
+                                        </a>
                                     </div>
                                     <!-- <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p> -->
                                 </div>
@@ -48,7 +52,9 @@
                             <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm position-relative">
                                 <div class="col py-2 px-4 d-flex flex-column position-static">
                                     <div class="just-center w-100">
-                                        <h3 class="mb-0">Module IV</h3>
+                                    <a draggable="false" href="/Welders/blog/module-1" class="stretched-link mb-0 text-decoration-none black">
+                                            <h4 class="mb-0">Module IV</h4>
+                                        </a>
                                     </div>
                                     <!-- <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p> -->
                                 </div>
