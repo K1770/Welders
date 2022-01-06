@@ -6,8 +6,8 @@
   <?php include('fragments/links-style.php') ?>
   <link href="css/blog.css" rel="stylesheet">
   <link href="css/style-main.css" rel="stylesheet">
-  <link href="css/sidebars.css" rel="stylesheet">
   <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/sidebars.css" rel="stylesheet">
 
   <script src="js/sidebars.js"></script>
   <!-- <script src="assets/dist/js/bootstrap.bundle.min.js"></script> top menu -->
@@ -35,7 +35,9 @@
   <main class="container container2 mt-2">
 
     <div class="row">
-      <div class="col-md-4"></div>
+      <div class="col-md-4">
+      <?php include('fragments/nav-sidebar-modules.php'); ?>
+      </div>
       <div class="col-md-8">
         <div class="content">
 
