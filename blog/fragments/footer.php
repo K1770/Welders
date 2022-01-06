@@ -3,4 +3,6 @@
   <p>
     <a href="#">Back to top</a>
   </p>
+
+  <!-- <script src="assets/dist/js/bootstrap.bundle.min.js"></script> -->
 </footer>
