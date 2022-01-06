@@ -119,7 +119,7 @@
               <img class="card-img-top" src="_img/test.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
-                  <a href="basic-information" class="stretched-link link-card">Test</a>
+                  <a href="https://docs.google.com/forms/d/1C0wKzaX9HkreBmB_JpKrSmpA_lDO_DH7ovqTBVw9oOo/edit" class="stretched-link link-card">Test</a>
                 </h4>
               </div>
             </div>
