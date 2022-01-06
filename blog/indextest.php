@@ -66,22 +66,22 @@
     <!-- Button trigger modal -->
     <div class="row">
       <div class="col-3 d-flex justify-content-center">
-        <button type="button" class="btn btn-primary btn-block w-50" name="myButton1" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="myAlert(this)">
+        <button type="button" class="btn btn-primary btn-block w-50" name="myButton1" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
           1
         </button>
       </div>
       <div class="col-3 d-flex justify-content-center">
-        <button type="button" class="btn btn-primary btn-block w-50" name="myButton2" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="myAlert(this)">
+        <button type="button" class="btn btn-primary btn-block w-50" name="myButton2" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
           2
         </button>
       </div>
       <div class="col-3 d-flex justify-content-center">
-        <button type="button" class="btn btn-primary btn-block w-50" name="myButton3" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="myAlert(this)">
+        <button type="button" class="btn btn-primary btn-block w-50" name="myButton3" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
           3
         </button>
       </div>
       <div class="col-3 d-flex justify-content-center">
-        <button type="button" class="btn btn-primary btn-block w-50" name="myButton4" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="myAlert(this)">
+        <button type="button" class="btn btn-primary btn-block w-50" name="myButton4" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
           4
         </button>
       </div>
@@ -111,7 +111,7 @@
   </main>
 
   <script>
-    function myAlert(button) {
+    function changeText(button) {
       let buttonName = button.name;
       let newLabel = "";
       let newTextBody = "";
