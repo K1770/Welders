@@ -41,7 +41,7 @@
   <main class="container container2 mt-2">
     <div class="p-4 mb-4 text-white rounded bg-dark the-main-information" style="background-image: url('_img/the-main-information.jpg');">
       <div class="col-md-8 px-0">
-        <h1 class="display-6 fst-italic shadow-for-white-text">The main information (Test)</h1>
+        <h1 class="display-6 fst-italic shadow-for-white-text">The main information</h1>
         <p class="lead my-3 shadow-for-white-text">Personal site for the students of welding careers as a support in studying the English language as a professional component</p>
         <p class="lead mb-0"><a href="about.php" class="text-white fw-bold">Continue reading...</a></p>
       </div>
