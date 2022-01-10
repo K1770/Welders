@@ -36,7 +36,7 @@
 
   <div class="container">
     <?php include('fragments/header.php'); ?>
-  </div>
+  </div>s
 
   <main class="container container2 mt-2">
     <div class="p-4 mb-4 text-white rounded bg-dark the-main-information" style="background-image: url('_img/the-main-information.jpg');">
