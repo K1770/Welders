@@ -31,6 +31,16 @@
     .link-card:hover {
       color: white;
     }
+
+    .display-6 {
+      font-size: 0.8rem;
+    }
+
+    @media (min-width: 1200px) {
+      .display-6 {
+        font-size: 2.2rem;
+      }
+    }
   </style>
 </head>
 
@@ -49,11 +59,11 @@
     <div class="album py-2 bg-white">
       <div class="container">
 
-        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-5 g-3 mb-3 justify-content-center">
+        <div class="row row-cols-3 row-cols-sm-2 row-cols-md-5 g-3 mb-3 justify-content-center">
 
           <div class="col text-white align-items-stretch justify-content-center card-module text-center">
             <div class="card shadow-sm">
-              <img class="card-img-top" src="_img/welders-clothing.png">
+              <img class="card-img-square" src="_img/welders-clothing.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
                   <a href="basic-information" class="stretched-link link-card"><span>Welder’s clothing</span></a>
@@ -64,7 +74,7 @@
 
           <div class="col text-white align-items-stretch justify-content-center card-module text-center">
             <div class="card shadow-sm">
-              <img class="card-img-top" src="_img/welders-workplace.png">
+              <img class="card-img-square" src="_img/welders-workplace.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
                   <a href="basic-information" class="stretched-link link-card"><span>Welder’s workplace</span></a>
@@ -75,7 +85,7 @@
 
           <div class="col text-white align-items-stretch justify-content-center card-module text-center">
             <div class="card shadow-sm">
-              <img class="card-img-top" src="_img/health-and-safety-prevention.png">
+              <img class="card-img-square" src="_img/health-and-safety-prevention.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
                   <a href="basic-information" class="stretched-link link-card"><span>Health and safety prevention</span></a>
@@ -83,13 +93,17 @@
               </div>
             </div>
           </div> <!-- col end-->
+        </div> <!-- row -->
+
+
+        <div class="row row-cols-3 row-cols-sm-2 row-cols-md-5 g-3 mb-3 justify-content-center">
 
           <div class="col text-white align-items-stretch justify-content-center card-module text-center">
             <div class="card shadow-sm">
-              <img class="card-img-top" src="_img/metal-work.png">
+              <img class="card-img-square" src="_img/metal-work.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
-                  <a href="basic-information" class="stretched-link link-card"><span>Metalwork</span></a>
+                  <a href="metalwork" class="stretched-link link-card"><span>Metalwork</span></a>
                 </h4>
               </div>
             </div>
@@ -97,25 +111,39 @@
 
           <div class="col text-white align-items-stretch justify-content-center card-module text-center">
             <div class="card shadow-sm">
-              <img class="card-img-top" src="_img/symbols.png">
+              <img class="card-img-square" src="_img/symbols.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
-                  <a href="basic-information" class="stretched-link link-card"><span>Symbols in welding</span></a>
+                  <a href="symbols-in-welding" class="stretched-link link-card"><span>Symbols in welding</span></a>
                 </h4>
               </div>
             </div>
           </div>
           <!--col end-->
+
+          <div class="col text-white align-items-stretch justify-content-center card-module text-center">
+            <div class="card shadow-sm">
+              <img class="card-img-square" src="_img/how-to-weld.png">
+              <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
+                <h4 class="display-6 fst-italic card-title">
+                  <a href="how-to-weld" class="stretched-link link-card"><span>How to Weld</span></a>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <!--col end-->
+
         </div> <!-- row -->
 
-        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-5 g-3 mb-3 justify-content-center">
+
+        <div class="row row-cols-3 row-cols-sm-2 row-cols-md-5 g-3 mb-3 justify-content-center">
 
           <div class="col text-white align-items-stretch justify-content-center card-module text-center">
             <div class="card shadow-sm">
-              <img class="card-img-top" src="_img/glossary2.png">
+              <img class="card-img-square" src="_img/glossary2.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
-                  <a href="basic-information" class="stretched-link link-card"><span>Glossary</span></a>
+                  <a href="glossary" class="stretched-link link-card"><span>Glossary</span></a>
                 </h4>
               </div>
             </div>
@@ -124,10 +152,22 @@
 
           <div class="col text-white align-items-stretch justify-content-center card-module text-center">
             <div class="card shadow-sm">
-              <img class="card-img-top" src="_img/test.png">
+              <img class="card-img-square" src="_img/calculator.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
-                  <a href="https://docs.google.com/forms/d/1C0wKzaX9HkreBmB_JpKrSmpA_lDO_DH7ovqTBVw9oOo/edit" class="stretched-link link-card"><span>Test</span></a>
+                  <a href="#" class="stretched-link link-card"><span>Welding calculations</span></a>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <!--col end-->
+
+          <div class="col text-white align-items-stretch justify-content-center card-module text-center">
+            <div class="card shadow-sm">
+              <img class="card-img-square" src="_img/test.png">
+              <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
+                <h4 class="display-6 fst-italic card-title">
+                  <a href="https://docs.google.com/forms/d/1C0wKzaX9HkreBmB_JpKrSmpA_lDO_DH7ovqTBVw9oOo/edit" class="stretched-link link-card" target="blank"><span>Test</span></a>
                 </h4>
               </div>
             </div>

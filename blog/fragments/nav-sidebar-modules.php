@@ -28,7 +28,7 @@
                             <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm position-relative">
                                 <div class="col py-2 px-4 d-flex flex-column position-static">
                                     <div class="just-center w-100">
-                                    <a draggable="false" href="/Welders/blog/module-1" class="stretched-link mb-0 text-decoration-none black">
+                                        <a draggable="false" href="/Welders/blog/module-1" class="stretched-link mb-0 text-decoration-none black">
                                             <h4 class="mb-0">Module II</h4>
                                         </a>
                                     </div>
@@ -40,7 +40,7 @@
                             <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm position-relative">
                                 <div class="col py-2 px-4 d-flex flex-column position-static">
                                     <div class="just-center w-100">
-                                    <a draggable="false" href="/Welders/blog/module-1" class="stretched-link mb-0 text-decoration-none black">
+                                        <a draggable="false" href="/Welders/blog/module-1" class="stretched-link mb-0 text-decoration-none black">
                                             <h4 class="mb-0">Module III</h4>
                                         </a>
                                     </div>
@@ -52,7 +52,7 @@
                             <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm position-relative">
                                 <div class="col py-2 px-4 d-flex flex-column position-static">
                                     <div class="just-center w-100">
-                                    <a draggable="false" href="/Welders/blog/module-1" class="stretched-link mb-0 text-decoration-none black">
+                                        <a draggable="false" href="/Welders/blog/module-1" class="stretched-link mb-0 text-decoration-none black">
                                             <h4 class="mb-0">Module IV</h4>
                                         </a>
                                     </div>

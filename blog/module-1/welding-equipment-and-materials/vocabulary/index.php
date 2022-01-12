@@ -21,7 +21,7 @@
     td {
       border: solid 1px black;
       padding: 0.5rem;
-      word-wrap: break-word;
+      word-wrap: break-word !important;
     }
 
     .content {
