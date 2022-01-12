@@ -38,7 +38,7 @@
             array(
               'The history of weilding' => '../../the-history-of-weilding',
               'What welders do' => '../../what-welders-do',
-              'Welding equipment and materials' => 'topicLink3'
+              'Welding equipment and materials' => '../../welding-equipment-and-materials'
             )
           ); ?>
         </div> <!-- col-md-3 -->
@@ -61,13 +61,13 @@
             <div class="p-main">
               <span class="p-first-words" />There are many ways to make a weld and many different kinds of welds. Some processes cause sparks and others do not even require extra heat. Welding can be done anywhere… outdoors or indoors, underwater and in outer space.
             </div>
-            
+
             <div class="p-main">
               <span class="p-first-words" />
               Nearly everything we use in our daily life is welded or made by equipment that is welded. Welders help build metal products from coffeepots to skyscrapers. They help build space vehicles and millions of other products ranging from oil drilling rigs to automobiles. In construction, welders are virtually rebuilding the world, extending subways, building bridges, and helping to improve the environment by building pollution control devices. The use of welding is practically unlimited.
             </div>
-            
-            
+
+
             <div class="text-center mb-2">
               <img class="text-center img-basic" src="_img/img2.png">
             </div>

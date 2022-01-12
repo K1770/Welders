@@ -36,12 +36,12 @@
 
   <div class="container">
     <?php include('fragments/header.php'); ?>
-  </div>
+  </div>s
 
   <main class="container container2 mt-2">
     <div class="p-4 mb-4 text-white rounded bg-dark the-main-information" style="background-image: url('_img/the-main-information.jpg');">
       <div class="col-md-8 px-0">
-        <h1 class="display-6 fst-italic shadow-for-white-text">The main information (Test)</h1>
+        <h1 class="display-6 fst-italic shadow-for-white-text">The main information</h1>
         <p class="lead my-3 shadow-for-white-text">Personal site for the students of welding careers as a support in studying the English language as a professional component</p>
         <p class="lead mb-0"><a href="about.php" class="text-white fw-bold">Continue reading...</a></p>
       </div>
@@ -64,10 +64,10 @@
       <div class="card card-block mr-2 me-2" style="min-width: 45%;">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-success">Mechanical</strong>
+            <strong class="d-inline-block mb-2 text-primary">Mechanical</strong>
             <h3 class="mb-0">Module II</h3>
             <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <a draggable="false" href="#" class="stretched-link">Continue reading</a>
+            <a draggable="false" href="module-2/index.php" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">
             <img class="bd-placeholder-img fit-image-div" width="200" height="250" src="_img/module2.jpg">
