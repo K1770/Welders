@@ -37,7 +37,7 @@
             array(
               'The history of weilding' => '../../the-history-of-weilding',
               'What welders do' => '../../what-welders-do',
-              'Welding equipment and materials' => 'topicLink3'
+              'Welding equipment and materials' => '../../welding-equipment-and-materials'
             )
           ); ?>
         </div> <!-- col-md-3-->
@@ -45,7 +45,7 @@
         <div class="col-md-9">
 
           <div class="pt-1 text-center container">
-          <h2 class="fw-light">What is welding and what do welders do?</h2>
+            <h2 class="fw-light">What is welding and what do welders do?</h2>
           </div>
 
           <div class="justify-content-centers m-4">

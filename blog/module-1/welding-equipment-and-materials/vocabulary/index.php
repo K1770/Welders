@@ -21,7 +21,7 @@
     td {
       border: solid 1px black;
       padding: 0.5rem;
-      word-wrap: break-word;
+      word-wrap: break-word !important;
     }
 
     .content {
@@ -57,7 +57,7 @@
             array(
               'The history of weilding' => '../../the-history-of-weilding',
               'What welders do' => '../../what-welders-do',
-              'Welding equipment and materials' => 'topicLink3'
+              'Welding equipment and materials' => '../../welding-equipment-and-materials'
             )
           ); ?>
         </div> <!-- col-md-3 -->
