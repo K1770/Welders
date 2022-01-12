@@ -14,14 +14,14 @@
   <nav class="nav justify-content-between scrollbar-div" id="drag-to-scroll-header">
     <a class="p-2 link-secondary" draggable="false" href="https://worldskills.org/skills/id/222/">Working competition in Welding</a>
     <a class="nav-link dropdown-toggle link-secondary p-2" draggable="false" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Modules</a>
-    <ul class="dropdown-menu scrollable-menu px-2" id="myDropDown" role="menu">
+    <ul class="dropdown-menu scrollable-menu px-2" id="myDropDown" role="menu" style="min-width: auto;">
       <li><a class="link-secondary" href="/Welders/blog/module-1">Module I</a></li>
       <li><a class="link-secondary" href="#">Module II</a></li>
       <li><a class="link-secondary" href="#">Module III</a></li>
       <li><a class="link-secondary" href="#">Module IV</a></li>
     </ul>
     <a class="nav-link dropdown-toggle link-secondary p-2" draggable="false" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Checking course</a>
-    <ul class="dropdown-menu scrollable-menu px-2" id="myDropDown" role="menu">
+    <ul class="dropdown-menu scrollable-menu px-2" id="myDropDown" role="menu" style="min-width: auto;">
       <li><a class="link-secondary" href="/Welders/blog/checking-course.php">All modules</a></li>
       <hr class="my-1">
       <li><a class="link-secondary" href="https://docs.google.com/forms/d/1-KbIXFZB-YARA1Z-IE2KJAktKcEUvJcxGNp61Dyd-Vg/edit">Module I</a></li>
