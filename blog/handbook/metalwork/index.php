@@ -21,7 +21,7 @@
         <?php include('../../fragments/header.php'); ?>
     </div>
 
-    <main class="container container2">
+    <main class="container container2 mt-2">
 
         <section class="home-section ">
 

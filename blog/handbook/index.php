@@ -3,13 +3,15 @@
 
 <head>
   <title>English for welders</title>
-  <?php include('../fragments/links-style.php') ?>
+  <?php include('../fragments/links-style-main.php') ?>
+
   <link href="../css/blog.css" rel="stylesheet">
   <link href="../css/style-main.css" rel="stylesheet">
   <link href="../css/sidebars.css" rel="stylesheet">
   <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <script src="../js/sidebars.js"></script>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script> <!-- top menu -->
   <style>
     .shadow-for-white-text {
       text-shadow: 2px 1px 2px black;
@@ -23,22 +25,28 @@
     }
 
     .link-card>span {
-      display: inline;
+      /* display: inline;
       background-color: rgba(0, 0, 0, 0.4);
-      box-shadow: -10px 0 0 rgba(0, 0, 0, 0.4), 10px 0 0 rgba(0, 0, 0, 0.4);
+      box-shadow: -10px 0 0 rgba(0, 0, 0, 0.4), 10px 0 0 rgba(0, 0, 0, 0.4); */
+      text-shadow: 5px 0 5px #000,
+        0 5px 5px #000,
+        -5px 0 5px #000,
+        0 -5px 5px #000;
     }
 
     .link-card:hover {
       color: white;
     }
 
-    .display-6 {
-      font-size: 0.8rem;
+    @media (max-width: 768px) {
+      .display-6 {
+        font-size: 1rem;
+      }
     }
 
     @media (min-width: 1200px) {
       .display-6 {
-        font-size: 2.2rem;
+        font-size: 2.3rem;
       }
     }
   </style>
@@ -50,7 +58,7 @@
     <?php include('../fragments/header.php'); ?>
   </div>
 
-  <main class="container container2">
+  <main class="container container2 mt-2">
 
     <div class="py-1 text-center container ">
       <h2 class="fw-light">Topics</h2>
@@ -66,7 +74,7 @@
               <img class="card-img-square" src="_img/welders-clothing.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
-                  <a href="basic-information" class="stretched-link link-card"><span>Welder’s clothing</span></a>
+                  <a href="welders-clothing" class="stretched-link link-card"><span>Welder’s clothing</span></a>
                 </h4>
               </div>
             </div>
@@ -77,7 +85,7 @@
               <img class="card-img-square" src="_img/welders-workplace.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
-                  <a href="basic-information" class="stretched-link link-card"><span>Welder’s workplace</span></a>
+                  <a href="welders-workplace" class="stretched-link link-card"><span>Welder’s workplace</span></a>
                 </h4>
               </div>
             </div>
@@ -88,7 +96,7 @@
               <img class="card-img-square" src="_img/health-and-safety-prevention.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
-                  <a href="basic-information" class="stretched-link link-card"><span>Health and safety prevention</span></a>
+                  <a href="health-and-safety-prevention" class="stretched-link link-card"><span>Health and safety prevention</span></a>
                 </h4>
               </div>
             </div>
@@ -155,7 +163,7 @@
               <img class="card-img-square" src="_img/calculator.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
-                  <a href="#" class="stretched-link link-card"><span>Welding calculations</span></a>
+                  <a href="welding-calculations" class="stretched-link link-card"><span>Welding calculations</span></a>
                 </h4>
               </div>
             </div>
