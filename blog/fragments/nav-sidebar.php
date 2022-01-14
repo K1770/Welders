@@ -1,6 +1,6 @@
 <!-- <h1><?php echo $category1; ?></h1> -->
 
-<div class="flex-shrink-0 px-3 pt-3 bg-white" hi>
+<div class="flex-shrink-0 px-3 pt-2 bg-white" hi>
     <div class="text-center">
         <span class="fs-4 fw-semibold">Menu</span>
         <div class=" border-bottom">

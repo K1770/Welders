@@ -60,7 +60,7 @@
                                 <a href="https://www.omnicalculator.com/construction/welding" target="_blank"></a>
                             </div>
                         </div>
-                        <script async src="https://cdn.omnicalculator.com/sdk.js"></script>
+                        <script async src="./sdk.js"></script>
 
                     </div>
 

@@ -36,7 +36,7 @@
 
     <div class="row">
       <div class="col-md-4">
-      <?php include('fragments/nav-sidebar-modules.php'); ?>
+        <?php include('fragments/nav-sidebar-modules.php'); ?>
       </div>
       <div class="col-md-8">
         <div class="content">
@@ -46,16 +46,16 @@
           </div>
 
           <div class="d-grid gap-2 col-11 mx-auto">
-            <a class="btn btn-white" type="button" href="https://podcasts.apple.com/ca/podcast/welding-tips-and-tricks-podcast/id1129802347">
+            <a class="btn btn-white" type="button" href="https://podcasts.apple.com/ca/podcast/welding-tips-and-tricks-podcast/id1129802347" target="_blank">
               Welding Tips and Tricks Podcast
             </a>
-            <a class="btn btn-white" type="button" href="https://podcasts.apple.com/us/podcast/weld-ndt-quality-guru-podcast/id1535378647">
-            Weld - NDT - Quality Guru Podcast
+            <a class="btn btn-white" type="button" href="https://podcasts.apple.com/us/podcast/weld-ndt-quality-guru-podcast/id1535378647" target="_blank">
+              Weld - NDT - Quality Guru Podcast
             </a>
-            <a class="btn btn-white" type="button" href="https://arcjunkies.libsyn.com/">
+            <a class="btn btn-white" type="button" href="https://arcjunkies.libsyn.com/" target="_blank">
               Arc Junkies
             </a>
-            <a class="btn btn-white" type="button" href="https://gpacex.podbean.com/">
+            <a class="btn btn-white" type="button" href="https://gpacex.podbean.com/" target="_blank">
               The Welding Codex
             </a>
           </div>

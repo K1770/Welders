@@ -38,15 +38,27 @@
       color: white;
     }
 
+    @media (min-width: 768px) {
+      .display-6 {
+        font-size: 1.2rem;
+      }
+    }
+
     @media (max-width: 768px) {
       .display-6 {
         font-size: 1rem;
       }
     }
 
+    @media (max-width: 320px) {
+      .display-6 {
+        font-size: 0.5rem;
+      }
+    }
+
     @media (min-width: 1200px) {
       .display-6 {
-        font-size: 2.3rem;
+        font-size: 2.1rem;
       }
     }
   </style>
@@ -175,7 +187,7 @@
               <img class="card-img-square" src="_img/test.png">
               <div class="card-img-overlay d-flex justify-content-center align-items-center shadow-for-white-text">
                 <h4 class="display-6 fst-italic card-title">
-                  <a href="https://docs.google.com/forms/d/1C0wKzaX9HkreBmB_JpKrSmpA_lDO_DH7ovqTBVw9oOo/edit" class="stretched-link link-card" target="blank"><span>Test</span></a>
+                  <a href="https://docs.google.com/forms/d/1C0wKzaX9HkreBmB_JpKrSmpA_lDO_DH7ovqTBVw9oOo/edit" class="stretched-link link-card" target="_blank"><span>Test</span></a>
                 </h4>
               </div>
             </div>

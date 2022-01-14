@@ -46,25 +46,25 @@
           </div>
 
           <div class="d-grid gap-2 col-11 mx-auto">
-            <a class="btn btn-white" type="button" href="https://quizlet.com/20635732/welding-flash-cards/">
+            <a class="btn btn-white" type="button" href="https://quizlet.com/20635732/welding-flash-cards/" target="_blank">
               Welding 1
             </a>
-            <a class="btn btn-white" type="button" href="https://quizlet.com/125701028/welding-flash-cards/">
+            <a class="btn btn-white" type="button" href="https://quizlet.com/125701028/welding-flash-cards/" target="_blank">
               Welding 2
             </a>
-            <a class="btn btn-white" type="button" href="https://quizlet.com/163459410/welding-joint-design-and-welding-symbols-flash-cards/">
+            <a class="btn btn-white" type="button" href="https://quizlet.com/163459410/welding-joint-design-and-welding-symbols-flash-cards/" target="_blank">
               Welding 3
             </a>
-            <a class="btn btn-white" type="button" href="https://quizlet.com/10574292/welding-flash-cards/">
+            <a class="btn btn-white" type="button" href="https://quizlet.com/10574292/welding-flash-cards/" target="_blank">
               Welding 4
             </a>
-            <a class="btn btn-white" type="button" href="https://quizlet.com/17189424/welding-flash-cards/">
+            <a class="btn btn-white" type="button" href="https://quizlet.com/17189424/welding-flash-cards/" target="_blank">
               Welding 5
             </a>
-            <a class="btn btn-white" type="button" href="https://quizlet.com/90041621/welding-flash-cards/">
+            <a class="btn btn-white" type="button" href="https://quizlet.com/90041621/welding-flash-cards/" target="_blank">
               Welding 6
             </a>
-            <a class="btn btn-white" type="button" href="https://quizlet.com/91745098/welding-chapters-1-6-first-exam-flash-cards/">
+            <a class="btn btn-white" type="button" href="https://quizlet.com/91745098/welding-chapters-1-6-first-exam-flash-cards/" target="_blank">
               Welding - Chapters 1-6 - First Exam
             </a>
           </div>

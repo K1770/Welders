@@ -13,6 +13,17 @@
 
     <script src="../../js/sidebars.js"></script>
     <script src="../../assets/dist/js/bootstrap.bundle.min.js"></script> <!-- top menu -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <style>
+        .hidden {
+            display: none;
+        }
+
+        button {
+            width: 100%;
+        }
+    </style>
 
 </head>
 
@@ -55,9 +66,13 @@
                     <div class="mb-5">
 
                         <div>
-                            <div class="p-main">
+                            <!-- <button class="js-button btn btn-secondary btn-block " data-toggle-text="Eng">Ru</button> -->
+                            <div class="js-eng">
                                 1. During welding, the following injuries are possible ─ electric shock, burns from slag and metal drops, mechanical injuries.
                             </div>
+                            <div class="js-ru hidden">1. При сварке возможны следующие травмы ─ поражение электрическим током, ожоги от шлака и капель металла, травмы механического характера.</div>
+
+
 
                             <div class="text-center mb-2">
                                 <a href="https://u.to/8zzpGw" target="_blank"><img src="http://qrcoder.ru/code/?https%3A%2F%2Fu.to%2F8zzpGw&6&0" width="198" height="198" border="0" title="QR код"></a>
@@ -180,7 +195,27 @@
         </section>
 
     </main>
+    <script>
+        ;
+        (function($D) {
+            var $button = $D.querySelector('.js-button'),
+                $container = $D.querySelector('.js-ru'),
+                $container2 = $D.querySelector('.js-eng');
 
+            $button.addEventListener('click', function(e) {
+                var data = e.target.dataset,
+                    toggleText = $button.innerHTML,
+                    isVisible = $container.style.display == 'block',
+                    isVisible = $container2.style.display == 'none';
+
+                $button.innerHTML = data.toggleText;
+                data.toggleText = toggleText;
+
+                $container.style.display = isVisible ? 'none' : 'block',
+                    $container2.style.display = isVisible ? 'block' : 'none';
+            });
+        })(document);
+    </script>
     <?php include('../../fragments/footer.php') ?>
 
 </body>
