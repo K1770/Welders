@@ -1,6 +1,6 @@
 <!-- <h1><?php echo $category1; ?></h1> -->
 
-<div class="flex-shrink-0 px-3 pt-3 bg-white" hi>
+<div class="flex-shrink-0 px-3 pt-2 bg-white" hi>
     <div class="text-center">
         <span class="fs-4 fw-semibold">Handbook</span>
         <div class=" border-bottom">
@@ -38,7 +38,7 @@
 
                     <?php echo '<li><a href="' . $categoryLink7 . '" class="link-dark rounded a-menu">Glossary</a></li>' ?>
                     <?php echo '<li><a href="' . $categoryLink8 . '" class="link-dark rounded a-menu">Welding calculations</a></li>' ?>
-                    <?php echo '<li><a href="' . $categoryLink9 . '" class="link-dark rounded a-menu" target="blank">Test</a></li>' ?>
+                    <?php echo '<li><a href="' . $categoryLink9 . '" class="link-dark rounded a-menu" target="_blank">Test</a></li>' ?>
 
                 </ul>
             </div>

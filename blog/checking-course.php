@@ -46,16 +46,16 @@
           </div>
 
           <div class="d-grid gap-2 col-11 mx-auto">
-            <a class="btn btn-white" type="button" href="https://docs.google.com/forms/d/1-KbIXFZB-YARA1Z-IE2KJAktKcEUvJcxGNp61Dyd-Vg/edit">
+            <a class="btn btn-white" type="button" href="https://docs.google.com/forms/d/1-KbIXFZB-YARA1Z-IE2KJAktKcEUvJcxGNp61Dyd-Vg/edit" target="_blank">
               Module 1
             </a>
-            <a class="btn btn-white" type="button" href="https://docs.google.com/forms/d/1fgr43sPgVpz2Cro5SO117lS3GAjxzVfxEpuE7ybAGo8/edit">
+            <a class="btn btn-white" type="button" href="https://docs.google.com/forms/d/1fgr43sPgVpz2Cro5SO117lS3GAjxzVfxEpuE7ybAGo8/edit" target="_blank">
               Module 2
             </a>
-            <a class="btn btn-white" type="button" href="https://docs.google.com/forms/d/1nP4TOtuTqfSg2wW7ROqzC8gimKGkLSrWA3PByVyjg8c/edit">
+            <a class="btn btn-white" type="button" href="https://docs.google.com/forms/d/1nP4TOtuTqfSg2wW7ROqzC8gimKGkLSrWA3PByVyjg8c/edit" target="_blank">
               Module 3
             </a>
-            <a class="btn btn-white" type="button" href="https://docs.google.com/forms/d/107ddwCWkC5c0oP30ZffhSCugBDALBqFW0qlNrJiIaDo/edit">
+            <a class="btn btn-white" type="button" href="https://docs.google.com/forms/d/107ddwCWkC5c0oP30ZffhSCugBDALBqFW0qlNrJiIaDo/edit" target="_blank">
               Module 4
             </a>
           </div>
