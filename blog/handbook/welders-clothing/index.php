@@ -178,8 +178,7 @@
                                         <h5 class="modal-title " id="exampleModalLabel">Modal title</h5>
                                     </div>
                                     <div class="modal-body text-center">
-                                        Название слова
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non consectetur nihil quos earum quod consequuntur eius fugiat id nisi laudantium expedita eveniet ea soluta iste, sapiente facere tempora laborum quaerat?
+                                        Text
                                     </div>
                                     <!-- <div class="modal-footer"> -->
                                     <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->

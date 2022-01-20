@@ -1,0 +1,1 @@
+jQuery(function($){$('.et-social-icons').append('<li class="et-social-icon et-social-linkedin"><a href="https://au.linkedin.com/company/welding" class="icon"><span>LinkedIn</span></a></li>&nbsp;');});jQuery(function($){$('.et-social-icon a, .et-extra-social-icon a').attr('target','_blank');});jQuery(function($){});

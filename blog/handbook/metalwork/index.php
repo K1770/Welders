@@ -13,6 +13,21 @@
 
     <script src="../../js/sidebars.js"></script>
     <script src="../../assets/dist/js/bootstrap.bundle.min.js"></script> <!-- top menu -->
+    <style>
+        .hidden {
+            display: none;
+        }
+
+        button {
+            width: 3rem;
+            /* max-height: 38px; */
+            margin-right: 0.5rem;
+        }
+
+        .flex {
+            display: flex;
+        }
+    </style>
 
 </head>
 
@@ -54,76 +69,82 @@
 
                     <div class="mb-5">
 
-                        <div>
-                            <div class="p-main">
+                        <div class="p-main">
+                            <button class="btn btn-primary btn-block " onclick="translate_txt(this)">Ru</button>
+                            <div>
                                 The accuracy of the preparation of the metal for welding determines the quality of the joints of two or more metal products during welding. There are a number of actions to be performed to prepare the metal for welding: straightening; cleaning; markup; wheelhouse; installation and tack.
                             </div>
-
-                            <div class="text-center mb-2">
-                                <a href="https://u.to/Ht7mGw" target="_blank"><img src="http://qrcoder.ru/code/?https%3A%2F%2Fu.to%2FHt7mGw&6&0" width="198" height="198" border="0" title="QR код"></a>
+                            <div class="hidden">
+                                Правильность и тщательность подготовки металла под сварку определяет качество соединений двух или более металлических изделий во время нее. Существует ряд действий, которые предстоит выполнить для подготовки металла под сварку: правка; очистка; разметка; рубка; установка и прихватка.
                             </div>
                         </div>
 
 
 
-                        <div>
+                        <div class="p-main">
                             <div class="text-center mb-2">
                                 <img class="text-center img-basic" src="_img/1.png">
                             </div>
-                            <div class="p-main">
-                                <span class="p-first-words-bold">Bending.</span>It is produced by eye according to markings, templates, samples. The peculiarity of the procedure lies in the pressure exerted on the material by means of a press or by hand (hammer blows). Compliance with the technological sequence for preparing the metal for welding will result in seams that are distinguished by their strength and reliability. To avoid possible defects, metal products are thoroughly cleaned from traces of grease and rust.
+                            <button class="btn btn-primary btn-block " onclick="translate_txt(this)">Ru</button>
+                            <div>
+                                <span class="p-first-words-bold">Bending.</span> It is produced by eye according to markings, templates, samples. The peculiarity of the procedure lies in the pressure exerted on the material by means of a press or by hand (hammer blows). Compliance with the technological sequence for preparing the metal for welding will result in seams that are distinguished by their strength and reliability. To avoid possible defects, metal products are thoroughly cleaned from traces of grease and rust.
                             </div>
-                            <div class="text-center mb-2">
-                                <a href="https://u.to/wuDmGw" target="_blank"><img src="http://qrcoder.ru/code/?https%3A%2F%2Fu.to%2FwuDmGw&6&0" width="198" height="198" border="0" title="QR код"></a>
+                            <div class="hidden">
+                                <span class="p-first-words-bold">Гибка.</span> Производят ее на глаз по разметкам, шаблонам, образцам. Особенность процедуры заключается в оказываемом на материал давлении, производимом при помощи пресса или вручную (удары молотком). Соблюдение технологической последовательности выполнения подготовки металла под сварку позволит в результате получить швы, отличающиеся прочностью и надёжностью. Чтобы избежать возможных дефектов, изделия из металла подвергают тщательной очистке от следов жира и ржавчины.
                             </div>
                         </div>
 
-                        <div>
+                        <div class="p-main">
                             <div class="text-center mb-2">
                                 <img class="text-center img-basic" src="_img/2.png">
                             </div>
-                            <div class="p-main">
-                                <span class="p-first-words-bold">Cleaning.</span>In contact with air, the metal enters into a chemical reaction with oxygen, forming oxides. As a result, rust is formed, other contaminants are formed, which lead to the formation of various defects in the weld seam. Make sure that during metal processing, oil, scale, moisture do not get on its surface. This is highly undesirable. There are two methods of cleaning, which are carried out at the stage of preparing the metal for welding: 1. Mechanical. When cleaning the surface in this way, use special cleaning machines or sandpaper. If it is required to achieve a rough surface, then the metal is amenable to waterjet processing, through which a microrelief is created on the surface, which contributes to the formation of an even stronger seam during the welding process. 2. Chemical. The surface of the metal is cleaned by dipping it into a special chemical solution.
+                            <button class="btn btn-primary btn-block " onclick="translate_txt(this)">Ru</button>
+                            <div>
+                                <span class="p-first-words-bold">Cleaning.</span> In contact with air, the metal enters into a chemical reaction with oxygen, forming oxides. As a result, rust is formed, other contaminants are formed, which lead to the formation of various defects in the weld seam. Make sure that during metal processing, oil, scale, moisture do not get on its surface. This is highly undesirable. There are two methods of cleaning, which are carried out at the stage of preparing the metal for welding: 1. Mechanical. When cleaning the surface in this way, use special cleaning machines or sandpaper. If it is required to achieve a rough surface, then the metal is amenable to waterjet processing, through which a microrelief is created on the surface, which contributes to the formation of an even stronger seam during the welding process. 2. Chemical. The surface of the metal is cleaned by dipping it into a special chemical solution.
                             </div>
-                            <div class="text-center mb-2">
-                                <a href="https://u.to/9_HmGw" target="_blank"><img src="http://qrcoder.ru/code/?https%3A%2F%2Fu.to%2F9_HmGw&6&0" width="198" height="198" border="0" title="QR код"></a>
+                            <div class="hidden">
+                                <span class="p-first-words-bold">Очистка.</span> Соприкасаясь с воздухом, металл вступает в химическую реакцию с кислородом, образуя окислы. Вследствие этого образуется ржавчина, формируются другие загрязнения, которые ведут к образованию разнохарактерных дефектов шва сварки. Следите, чтобы в процессе обработки металла на его поверхность не попадали масло, окалина, влага. Это крайне нежелательно. Выделяют два способа очистки, которые проводятся на этапе подготовки металла под сварку:1. Механический. Очищая поверхность таким способом, используют специальные зачищающие машинки или наждачную бумагу. Если требуется достигнуть шероховатой поверхности, то металл поддают гидроабразивной обработке, посредством которой на поверхности создаётся микрорельеф, способствующий образованию ещё более прочного шва в процессе сварочной работы. 2. Химический. Поверхность металла очищают, окунув его в специальный химический раствор.
                             </div>
                         </div>
 
 
-                        <div>
+                        <div class="p-main">
                             <div class="text-center mb-2">
                                 <img class="text-center img-basic" src="_img/3.png">
                             </div>
-                            <div class="p-main">
-                                <span class="p-first-words-bold">Sketch.</span>Carrying out a sketch, the outlines of parts with notes are outlined on a sheet of metal. Here they show the places of bends, the centers of the holes and other subtleties of future structural elements.
+                            <button class="btn btn-primary btn-block " onclick="translate_txt(this)">Ru</button>
+                            <div>
+                                <span class="p-first-words-bold">Sketch.</span> Carrying out a sketch, the outlines of parts with notes are outlined on a sheet of metal. Here they show the places of bends, the centers of the holes and other subtleties of future structural elements.
                             </div>
-                            <div class="text-center mb-2">
-                                <a href="https://u.to/bOLmGw" target="_blank"><img src="http://qrcoder.ru/code/?https%3A%2F%2Fu.to%2FbOLmGw&6&0" width="198" height="198" border="0" title="QR код"></a>
+                            <div class="hidden">
+                                <span class="p-first-words-bold">Разметка.</span> Проводя наметку, на листе металла обрисовывают контуры деталей с пометками. Здесь показывают места сгибов, центры отверстий и другие тонкости будущих элементов конструкции.
                             </div>
                         </div>
 
-                        <div>
+                        <div class="p-main">
                             <div class="text-center mb-2">
                                 <img class="text-center img-basic" src="_img/4.png">
                             </div>
-                            <div class="p-main">
+                            <button class="btn btn-primary btn-block " onclick="translate_txt(this)">Ru</button>
+                            <div>
                                 <span class="p-first-words-bold">Chopping or cutting metal</span> is a stage at which you must be extremely careful and accurate. Even the slightest error can lead to defective finished products. When the marking lines have already been drawn, work continues using a center punch - a special machine that makes small indentations on the surface of the sheet. So traces of the basting will remain in the process of further processing of the metal.
                             </div>
-                            <div class="text-center mb-2">
-                                <a href="https://u.to/6OLmGw" target="_blank"><img src="http://qrcoder.ru/code/?https%3A%2F%2Fu.to%2F6OLmGw&6&0" width="198" height="198" border="0" title="QR код"></a>
+                            <div class="hidden">
+                                <span class="p-first-words-bold">Рубка или резка металла</span> ─ этап, на котором необходимо быть предельно внимательным и аккуратным. Даже малейшая погрешность может привести к браку готовых изделий. Когда разметочные линии уже нанесены, работу продолжают с применением кернера ─ специальной машинки, которая делает небольшие углубления на поверхности листа. Так следы наметок сохранятся в процессе дальнейшей обработки металла.
                             </div>
                         </div>
 
-                        <div>
+                        <div class="p-main">
                             <div class="text-center mb-2">
                                 <img class="text-center img-basic" src="_img/5.png">
                             </div>
-                            <div class="p-main">
+                            <button class="btn btn-primary btn-block " onclick="translate_txt(this)">Ru</button>
+                            <div>
                                 <span class="p-first-words-bold">Tack weld </span> is the last of the stages, which involves the preparation of the metal for welding. A tack weld is a short weld seam. The use of a tack allows: to avoid displacement of the welded structural elements during welding; avoid reducing constipation in relation to other parts; to achieve an increase in the rigidity of the structure; reduce the percentage of deformation of parts. Before starting welding, pay attention to the appearance of the made tacks. They also need to be prepared for the final welding: cleaned of slag and metal splashes, cleaned, make the tack place smooth and almost even.
                             </div>
-                            <div class="text-center mb-2">
-                                <a href="https://u.to/POPmGw" target="_blank"><img src="http://qrcoder.ru/code/?https%3A%2F%2Fu.to%2FPOPmGw&6&0" width="198" height="198" border="0" title="QR код"></a>
+                            <div class="hidden">
+                                <span class="p-first-words-bold">Прихватка.</span> ─ последний из этапов, который подразумевает подготовка металла под сварку. Сварочная прихватка ─ короткий сварной шов. Использование прихватки позволяет: избежать смещения свариваемых элементов конструкции при проведении сварочных работ; избежать уменьшения запора по отношению к другим деталям; добиться увеличения жесткости конструкции; снизить процент деформации деталей. Перед тем как приступить к сварочным работам, обратите внимание на внешний вид выполненных прихваток. Их тоже нужно подготовить к окончательной сварке: очистить от шлаков и застигших брызг металла, зачистить, сделать место прихватки гладким и практически ровным.
+
                             </div>
                         </div>
 
@@ -141,6 +162,27 @@
 
     </main>
 
+    <script>
+        function translate_txt(button) {
+            ru = button.nextSibling.nextSibling.nextSibling.nextSibling;
+            eng = button.nextSibling.nextSibling;
+            console.log(button.nextSibling.nextSibling.nextSibling.nextSibling.innerHTML)
+            console.log(button.innerHTML)
+
+            data = button.innerHTML,
+                toggleText = button.innerHTML,
+                isVisible = ru.style.display == 'block',
+                isVisible = eng.style.display == 'none';
+            console.log()
+
+            button.innerHTML = data == 'Eng' ? 'Ru' : 'Eng';
+            data.toggleText = toggleText;
+
+
+            ru.style.display = isVisible ? 'none' : 'block',
+                eng.style.display = isVisible ? 'block' : 'none';
+        }
+    </script>
     <?php include('../../fragments/footer.php') ?>
 
 </body>

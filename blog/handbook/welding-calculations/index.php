@@ -5,6 +5,7 @@
     <title>English for welders</title>
     <?php include('../../fragments/links-style-main.php') ?>
 
+
     <link href="../../css/blog.css" rel="stylesheet">
     <link href="../../css/style-main.css" rel="stylesheet">
     <link href="../../css/style-basic.css" rel="stylesheet">
@@ -64,10 +65,15 @@
 
                     </div>
 
-                </div> <!-- col-md-8 -->
+                    <div class="mb-5">
+                        <div class="py-1 text-center container ">
+                            <h2 class="fw-light">WELD CONSUMABLE CALCULATOR – BUTT AND FILLET WELDS</h2>
+                        </div>
+                        <?php include('./weld-consumable-calculator/index.php') ?>
+                    </div> <!-- col-md-8 -->
 
-            </div>
-            <!--? -->
+                </div>
+                <!--? -->
 
             </div>
             <!--? -->

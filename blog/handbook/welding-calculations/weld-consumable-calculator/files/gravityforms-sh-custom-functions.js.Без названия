@@ -1,0 +1,76 @@
+function degrees_to_radians(degrees)
+{
+  var pi = Math.PI;
+  return degrees * (pi/180);
+}
+
+gform.addFilter( 'gform_calculation_result', function( result, formulaField, formId, calcObj ) {
+
+	
+
+	if ( formulaField.formula.indexOf( 'TAN' ) > -1 || formulaField.formula.indexOf( 'RADIANS' ) > -1 || formulaField.formula.indexOf( 'SIN' ) > -1  ) {
+
+		/**
+		 * Replace field tags with their associated values
+		 *
+		 * @param int    formId       The ID of the form in use
+		 * @param string formula      The value of the "Formula" field entered in
+		 *                            the form admin
+		 * @param object formulaField The current calculation field object
+		 * @var   string fieldFormula
+		 */
+		let fieldFormula = calcObj.replaceFieldTags( formId, formulaField.formula, formulaField );		
+
+		/**
+		 * Sanitize the formula in case we have malicious user inputs. This
+		 * prevents malicious code getting passed to our `eval` call later in the
+		 * function
+		 *
+		 * We are stripping out anything that is not a number, decimal, space,
+		 * parentheses, or simple arithmetical operator.
+		 *
+		 * @link https://www.w3schools.com/jsref/jsref_replace.asp
+		 *       Description of `replace` method
+		 */	
+		fieldFormula = fieldFormula.replace(/TAN/g,'Math.tan');
+		fieldFormula = fieldFormula.replace(/RADIANS/g,'degrees_to_radians');
+		fieldFormula = fieldFormula.replace(/SIN/g,'Math.sin');
+		
+		
+		/*const pattern = /(TAN|RADIANS)\(([\d\.\,\ ]+)\s*\)/gi,
+			matches = fieldFormula.match(pattern);
+
+		let replaces = [];		
+		
+		for(let i in matches) {			
+			let components = /(TAN|RADIANS)\(([\d\.,\ ]+)\s*\)/gi.exec(matches[i]);
+			let values = components[2].split(',').map((value,index,array) => {
+				return parseFloat(value.trim());
+			});			
+			console.log(components[1]);
+			if (components[1] == "TAN") replaces.push([matches[i], , Math.tan(...values)]);
+			if (components[1] == "RADIANS") replaces.push([matches[i], , degrees_to_radians(...values)]);
+		}
+		
+		for(let i in replaces) {
+			fieldFormula = fieldFormula.replace(replaces[i][0], replaces[i][2]);
+		}*/
+		
+		fieldFormula = fieldFormula.replace( /[^0-9\s\n\r\+\-\*\/\^\(\)\.](TAN|RADIANS|SIN)/g, '' );
+
+		/**
+		 * Set calculation result equal to evaluated string
+		 *
+		 * @link https://www.w3schools.com/jsref/jsref_eval.asp
+		 *       Description of `eval` function
+		 */		 
+		//console.log(fieldFormula);
+		result = eval(fieldFormula).toFixed(2);
+
+	} 
+	if(result > 0)
+		result = parseFloat(result).toFixed(2);
+	//console.log(result);
+	return result;
+
+} );
