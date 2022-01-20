@@ -1,0 +1,6 @@
+/* Enter Your Custom CSS Here */
+
+#quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav > li.quadmenu-item > a {
+    font-family: cabin !important;
+    
+}

@@ -1,0 +1,163 @@
+	
+	
+
+	jQuery(document).ready(function($){
+
+
+		
+		if($('.wpcf7-form-control.wpcf7-repeater-add').length>0){
+			$('.wpcf7-form-control.wpcf7-repeater-add').on('click', function(){
+				wpdp_refresh_5391040(jQuery, true);
+			});
+		}
+		
+	
+});
+var wpdp_refresh_first_5391040 = 'yes';
+var wpdp_counter_5391040 = 0;
+var wpdp_month_array_5391040 = [];
+var wpdp_dateFormat = "dd-mm-yy";
+var wpdp_defaultDate = "";
+function wpdp_refresh_5391040($, force){
+				if(typeof $.datepicker!='undefined' && typeof $.datepicker.regional["en-GB"]!='undefined'){
+					
+				wpdp_month_array_5391040 = $.datepicker.regional["en-GB"].monthNames;
+									
+				}
+				
+		
+		
+				
+
+
+				if($("#field_3").length>0){
+					
+				$("#field_3").attr("autocomplete", "off");
+					
+				//document.title = wpdp_refresh_first=='yes';
+				force = true;
+				if(wpdp_refresh_first_5391040 == 'yes' || force){
+					
+					if(typeof $.datepicker!='undefined')
+					$("#field_3").datepicker( "destroy" );
+					
+					$("#field_3").removeClass("hasDatepicker");
+					wpdp_refresh_first_5391040 = 'done';
+					
+				}
+				$('body').on('mouseover, mousemove', function(){//
+				
+			
+									
+				if ($('#field_3').val()!= "") {
+					$('#field_3').attr('data-default-val', $('#field_3').val());
+				}		
+							
+				if(wpdp_counter_5391040 > 2)
+				clearInterval(wpdp_intv_5391040);
+				
+				if(!$("#field_3").hasClass('hasDatepicker')){
+
+				
+					
+				$("#field_3").datepicker($.extend(  
+					{},  // empty object  
+					$.datepicker.regional[ "en-GB" ],       // Dynamically  
+					{  
+ 					dateFormat: wpdp_dateFormat
+					}
+				)).on( "change", function() {
+						
+				}); 
+				
+				
+				
+				
+				
+				$("#field_3").datepicker( "option", "dateFormat", "dd-mm-yy" );
+
+
+setTimeout(function(){ 
+
+	 $.each($("#field_3"), function(){
+
+        
+            $(this).prop('autocomplete', 'on');
+
+
+         		 		
+		var expected_default = $(this).data('default');		
+
+		
+		var expected_stamp = $(this).data('default_stamp');
+		var expected_stamp_date = new Date(expected_stamp*1000);
+		var expected_stamp_str = $.datepicker.formatDate('dd-mm-yy', expected_stamp_date);		 
+	 
+		if(expected_default != undefined && expected_default!=''){ $(this).datepicker().datepicker('setDate', expected_default); }
+		if(expected_stamp != undefined && expected_stamp!=''){ $(this).datepicker().datepicker('setDate', expected_stamp_str); }		
+		
+	});
+	
+}, 100);
+	
+
+
+
+
+
+
+					$.each($("#field_3"), function(){
+						var this_selector = $(this);
+						var parent_form = this_selector.closest('form');
+						
+						parent_form.on('reset', function(){
+							if(this_selector.data('default-val')!= ""){
+								setTimeout(function(){
+									if(this_selector.val() == ''){
+										this_selector.val(this_selector.data('default-val'));
+									}
+								});
+							}
+						});
+						if($(this).data('default-val')!= ""){
+							$(this).val($(this).data('default-val'));
+						}
+						
+					});
+						
+				
+				}
+				});
+				}
+		
+
+
+		
+		$('.ui-datepicker').addClass('notranslate');
+}
+	var wpdp_intv_5391040 = setInterval(function(){
+		wpdp_counter_5391040++;
+		wpdp_refresh_5391040(jQuery, false);
+	}, 500);
+
+	                jQuery(document).ready(function($){
+
+                        $("#field_3").on('click', function(){
+
+                            $('.ui-datepicker-div-wrapper').prop('class', 'ui-datepicker-div-wrapper wp_datepicker_option-1 ');
+
+                        });
+
+                        setTimeout(function () {
+                                $("#field_3").click();
+                                //$("//").focusout();
+                        }, 1000);
+
+
+
+                });
+
+            
+    //wpdp_refresh_//(jQuery, false);
+	
+	    

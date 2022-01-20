@@ -13,6 +13,16 @@
 
     <script src="../../../sidebars.js"></script>
     <script src="../../../assets/dist/js/bootstrap.bundle.min.js"></script> <!-- top menu -->
+    <style>
+        .mr-2 {
+            margin-right: 0.5rem;
+        }
+
+        img:hover {
+            content: url("../_img/volume_hover.png");
+            cursor: pointer;
+        }
+    </style>
 
 </head>
 
@@ -59,51 +69,65 @@
                             <h2 class="fw-light">Welding Materials</h2>
                         </div>
 
-                        <div>
+                        <form>
                             <p>
-                                <strong><em>Acetone</em></strong>
-                                <em> – </em>
+                                <strong><em class="mr-2">Acetone</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                <em class="mr-2"> – </em>
                                 flammable and unstable liquid that is used to dissolve and stabilize
                                 acetylene.
                             </p>
+                        </form>
+                        <form>
                             <p>
-                                <strong><em>Acetylene</em></strong>
+                                <strong><em class="mr-2">Acetylene</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
                                 <strong> </strong>
                                 – a highly combustible gas that is made of carbon and hydrogen that is used
                                 in gas welding.
                             </p>
+                        </form>
+                        <form>
                             <p>
-                                <strong><em>Alloy</em></strong>
+                                <strong><em class="mr-2">Alloy</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
                                 – a mixture of one or more elements with at least one being a metal.
                             </p>
+                        </form>
+                        <form>
                             <p>
-                                <strong><em>Electrode</em></strong>
-                                <em> – </em>
+                                <strong><em class="mr-2">Electrode</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                <em class="mr-2"> – </em>
                                 various materials that are used to conduct the welding current between the
                                 electrode holder and the welding arc.
                             </p>
+                        </form>
+                        <form>
                             <p>
-                                <strong><em>Ferrite</em></strong>
-                                <em> – </em>
+                                <strong><em class="mr-2">Ferrite</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                <em class="mr-2"> – </em>
                                 a pure form of iron that exists below the lowest critical temperature.
                             </p>
+                        </form>
+                        <form>
                             <p>
-                                <strong><em>Flux</em></strong>
+                                <strong><em class="mr-2">Flux</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
                                 – cleaner used to clean metals to be welded, soldered or brazed. It also
                                 dissolves rust and releases any trapped gases that may be in the metal.
                             </p>
+                        </form>
+                        <form>
                             <p>
-                                <strong><em>Nonferrous </em></strong>
+                                <strong><em class="mr-2">Nonferrous </em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
                                 – metals that do not contain any iron. Examples of nonferrous metals
                                 include aluminum, bronze, copper, lead and titanium.
                             </p>
+                        </form>
+                        <form>
                             <p>
-                                <strong><em>Welding Rod</em></strong>
+                                <strong><em class="mr-2">Welding Rod</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
                                 – filler metal that comes in a rod or wire form and is used in brazing and
                                 gas welding or in arc welding where the electrode does not produce filler
                                 metal.
                             </p>
-                        </div>
+                        </form>
 
 
                     </div>
@@ -114,6 +138,7 @@
 
     </main>
 
+    <script src='../../../js/speak.js'></script>
     <?php include('../../../fragments/footer.php') ?>
 </body>
 

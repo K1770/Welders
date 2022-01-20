@@ -53,7 +53,7 @@
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary">About</strong>
             <h3 class="mb-0">Module I</h3>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text mb-auto">General information about welding.</p>
             <a draggable="false" href="module-1/index.php" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block" style="background: red">
@@ -66,7 +66,7 @@
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary">Mechanical</strong>
             <h3 class="mb-0">Module II</h3>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text mb-auto">Welding materials.</p>
             <a draggable="false" href="module-2/index.php" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">
@@ -79,8 +79,8 @@
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary">About</strong>
             <h3 class="mb-0">Module III</h3>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <a draggable="false" href="#" class="stretched-link">Continue reading</a>
+            <p class="card-text mb-auto">Types of welding.</p>
+            <a draggable="false" href="module-3/index.php" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">
             <img class="bd-placeholder-img fit-image-div" width="200" height="250" src="_img/module3.jpg">
@@ -92,8 +92,8 @@
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary">About</strong>
             <h3 class="mb-0">Module IV</h3>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <a draggable="false" href="#" class="stretched-link">Continue reading</a>
+            <p class="card-text mb-auto">Health Safety and Skill Competition.</p>
+            <a draggable="false" href="module-4/index.php" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">
             <img class="bd-placeholder-img fit-image-div" width="200" height="250" src="_img/module4.jpg">

@@ -35,7 +35,7 @@
               <img class="card-img-top" src="_img/module2-topic1.jpg">
 
               <div class=" card-body text-center justify-content-center d-flex align-items-center">
-                <p class="card-text fw-bold fs-5"><a href="mechanical-and-chemical-properties-of-carbon-steel" class="stretched-link nice-link">Mechanical and chemical properties of carbon steel</a></p>
+                <p class="card-text fw-bold fs-5"><a href="topic1" class="stretched-link nice-link">Mechanical and chemical properties of carbon steel</a></p>
               </div>
             </div>
           </div> <!-- col end-->
@@ -44,7 +44,7 @@
               <img class="card-img-top" src="_img/module2-topic2.jpg">
 
               <div class="card-body text-center justify-content-center d-flex align-items-center">
-                <p class="card-text fw-bold fs-5"><a href="what-welders-do" class="stretched-link nice-link">Mechanical and chemical properties of stainless steel</a></p>
+                <p class="card-text fw-bold fs-5"><a href="topic2" class="stretched-link nice-link">Mechanical and chemical properties of stainless steel</a></p>
               </div>
             </div>
           </div> <!-- col end-->
@@ -53,7 +53,7 @@
               <img class="card-img-top" src="_img/module2-topic3.jpg">
 
               <div class="card-body text-center justify-content-center d-flex align-items-center">
-                <p class="card-text fw-bold fs-5"><a href="welding-equipment-and-materials" class="stretched-link nice-link">Mechanical and chemical properties of aluminium</a></p>
+                <p class="card-text fw-bold fs-5"><a href="topic3" class="stretched-link nice-link">Mechanical and chemical properties of aluminium</a></p>
               </div>
             </div>
           </div> <!-- col end-->
@@ -62,7 +62,7 @@
               <img class="card-img-top" src="_img/module2-topic4.jpg">
 
               <div class="card-body text-center justify-content-center d-flex align-items-center">
-                <p class="card-text fw-bold fs-5"><a href="welding-equipment-and-materials" class="stretched-link nice-link">Cast iron, copper and its alloys</a></p>
+                <p class="card-text fw-bold fs-5"><a href="topic4" class="stretched-link nice-link">Cast iron, copper and its alloys</a></p>
               </div>
             </div>
           </div> <!-- col end-->
