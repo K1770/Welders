@@ -254,6 +254,10 @@
 
             }
         }
+
+        select {
+            outline: none;
+        }
     </style>
 </head>
 

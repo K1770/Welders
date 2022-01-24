@@ -78,16 +78,16 @@
           </div>
 
           <div class="justify-content-centers m-4">
-            <p class="p-mb-0 p-img-center">1) GTAW instruments </p>
+            <p class="p-mb-0 p-img-center  text-center">1. GTAW instruments </p>
             <video class="p-img-center" src="https://thumbs.gfycat.com/GroundedNeatFirefly-mobile.mp4" width="100%" autoplay loop muted></video>
 
-            <p class="p-mb-0 p-img-center">2) Welding Machine </p>
+            <p class="p-mb-0 p-img-center  text-center">2. Welding Machine </p>
             <video class="p-img-center" src="https://thumbs.gfycat.com/CrazySizzlingAlbatross-mobile.mp4" width="100%" autoplay loop muted></video>
 
-            <p class="p-mb-0 p-img-center">3) Welding Torch </p>
+            <p class="p-mb-0 p-img-center  text-center">3. Welding Torch </p>
             <video class="p-img-center" src="https://thumbs.gfycat.com/CompassionateLightheartedAtlasmoth-mobile.mp4" width="100%" autoplay loop muted></video>
 
-            <p class="p-mb-0 p-img-center">4) Seam Weld </p>
+            <p class="p-mb-0 p-img-center  text-center">4. Seam Weld </p>
             <img class="p-img-center" src="https://thumbs.gfycat.com/ApprehensiveGreenGuillemot-size_restricted.gif" width="100%"></img>
 
           </div>

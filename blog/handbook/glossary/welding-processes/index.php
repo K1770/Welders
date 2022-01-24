@@ -17,11 +17,6 @@
         .mr-2 {
             margin-right: 0.5rem;
         }
-
-        img:hover {
-            content: url("../_img/volume_hover.png");
-            cursor: pointer;
-        }
     </style>
 
 </head>
@@ -71,14 +66,14 @@
 
                         <form>
                             <p>
-                                <strong><em class="mr-2">Arc Cutting</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                <strong><em class="mr-2">Arc Cutting</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                 – cutting processes where materials are cut by melting that is caused by
                                 the heat of the arc between the electrode and the metal.
                             </p>
                         </form>
                         <form>
                             <p>
-                                <strong><em class="mr-2">Arc Welding</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                <strong><em class="mr-2">Arc Welding</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                 – welding methods where fusion is achieved by heating the materials to be
                                 joined using an electric arc(s). This may be done with or without filler
                                 material.
@@ -86,7 +81,7 @@
                         </form>
                         <form>
                             <p>
-                                <strong><em class="mr-2">Bare Metal-Arc Welding</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                <strong><em class="mr-2">Bare Metal-Arc Welding</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                 – an arc welding method where fusion is accomplished by using an unshielded
                                 arc to produce heat between a bare or lightly coated electrode and the
                                 material to be welded. The filler metal comes from the electrode and
@@ -95,7 +90,7 @@
                         </form>
                         <form>
                             <p>
-                                <strong><em class="mr-2">Brazing</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                <strong><em class="mr-2">Brazing</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                 <strong> </strong>
                                 – a welding method using a filler metal that is liquefied at a temperature
                                 above 800 F is distributed within a groove, flange or other type of joint
@@ -108,46 +103,46 @@
                             </p>
 
                             <p>
-                                <strong><em class="mr-2">Braze Welding</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                <strong><em class="mr-2">Braze Welding</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                 – a welding process where the filler metal is liquefied above 842 F and
                                 beneath the base metals’ solid state.
                             </p>
                         </form>
                         <form>
                             <p>
-                                <strong><em class="mr-2">Carbon-Arc Welding</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                <strong><em class="mr-2">Carbon-Arc Welding</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                 – a welding method where fusion is created by an arc between a carbon
                                 electrode and the material to be welded.
                             </p>
                         </form>
                         <form>
                             <p>
-                                <strong><em class="mr-2">Gas Welding</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                <strong><em class="mr-2">Gas Welding</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                 – a welding process where a gas flame creates the welding heat.
                             </p>
                         </form>
                         <form>
                             <p>
-                                <strong><em class="mr-2">Machine Welding</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                <strong><em class="mr-2">Machine Welding</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                 – Welds that are performed by a machine/robot.
                             </p>
                         </form>
                         <form>
                             <p>
-                                <strong><em class="mr-2">Manual Welding</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                <strong><em class="mr-2">Manual Welding</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                 – Welds that are performed by a person.
                             </p>
                         </form>
                         <form>
                             <p>
-                                <strong><em class="mr-2">Metal-Arc Welding</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                <strong><em class="mr-2">Metal-Arc Welding</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                 – a welding process where the heat produced from an arc forms a weld by
                                 fusing a metal electrode and material to be welded together.
                             </p>
                         </form>
                         <form>
                             <p>
-                                <strong><em class="mr-2">Pressure Welding</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                <strong><em class="mr-2">Pressure Welding</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                 – a welding process where pressure is used to make a weld.
                             </p>
                         </form>

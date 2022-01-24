@@ -15,6 +15,71 @@
     <script src="../../js/sidebars.js"></script>
     <script src="../../assets/dist/js/bootstrap.bundle.min.js"></script> <!-- top menu -->
 
+    <style>
+        .bg-3 {
+            padding: 16px;
+            border-radius: 8px;
+            background: rgb(238, 238, 238);
+        }
+
+        .flex-whi {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .gfield_top,
+        .gfield_center,
+        .gfield_bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            background: white;
+            margin-bottom: 16px;
+        }
+
+        #V,
+        #A,
+        #S,
+        #input {
+            /* width: 100%; */
+            height: 50px;
+            padding: 16px
+        }
+
+        input {
+            outline: none;
+            border: none;
+            width: 100%;
+        }
+
+        .label {
+            white-space: nowrap;
+            margin-left: 16px;
+            color: rgb(90, 85, 85);
+        }
+
+        .input-end {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            width: 100%;
+        }
+
+        .mr-5 {
+            margin-right: 5px;
+        }
+
+        .result {
+            background: rgb(255, 165, 0) !important;
+        }
+
+        .desc {
+            color: rgb(33, 134, 188)
+        }
+    </style>
+
 </head>
 
 <body>
@@ -65,12 +130,64 @@
 
                     </div>
 
+
+                    <div class="py-1 text-center container ">
+                        <h2 class="fw-light">Weld Consumable Calculator – BUTT AND FILLET WELDS</h2>
+                    </div>
+
                     <div class="mb-5">
-                        <div class="py-1 text-center container ">
-                            <h2 class="fw-light">WELD CONSUMABLE CALCULATOR – BUTT AND FILLET WELDS</h2>
-                        </div>
+
                         <?php include('./weld-consumable-calculator/index.php') ?>
                     </div> <!-- col-md-8 -->
+                    <div class="mb-5"></div>
+
+                    <div class="py-1 text-center container ">
+                        <h2 class="fw-light">Welding Heat Input</h2>
+                    </div>
+
+                    <div class="mb-5">
+                        <div class="mb-5 bg-3 flex-whi">
+                            <div class="gfield_top">
+                                <label class="label">Arc Voltage (V)</label>
+                                <div class="input-end">
+                                    <input id="V">
+                                    <div class="gfield_description mr-5">V
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="gfield_center">
+                                <label class="label">Welding Current</label>
+                                <div class="input-end">
+                                    <input id="A">
+                                    <div class="gfield_description mr-5">A
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="gfield_bottom">
+                                <label class="label">Welding Speed </label>
+                                <div class="input-end">
+                                    <input id="S">
+                                    <div class="gfield_description mr-5">mm/min
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="gfield_bottom result">
+                                <label class="label result">Heat Input </label>
+                                <div class="input-end result">
+                                    <input type="text" id="input" class="result" readonly value="0">
+                                    <div class="desc mr-5 result">
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div> <!-- col-md-8 -->
+                    </div>
 
                 </div>
                 <!--? -->
@@ -83,6 +200,24 @@
     </main>
 
     <?php include('../../fragments/footer.php') ?>
+    <script>
+        V.oninput, A.oninput, S.oninput = function say_hi() {
+            var V = document.getElementById('V').value;
+            var A = document.getElementById('A').value;
+            var S = document.getElementById('S').value;
+
+            let heatInput = A * V * 0.06 / S
+
+            var html = heatInput.toFixed(2);
+            if (html != 'Infinity') {
+                document.getElementById('input').innerHTML = html;
+                input.value = html
+            } else
+                input.value = '0'
+
+
+        }
+    </script>
 
 </body>
 

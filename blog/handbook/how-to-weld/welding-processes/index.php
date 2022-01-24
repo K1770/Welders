@@ -78,25 +78,25 @@
           </div>
 
           <div class="justify-content-centers m-4">
-            <p class="p-mb-0 p-img-center">1) What Is Welding? </p>
+            <p class="p-mb-0 p-img-center text-center">1. What Is Welding? </p>
             <video class="p-img-center" src="https://thumbs.gfycat.com/UnluckyLimpAphid-mobile.mp4" width="100%" autoplay loop muted></video>
 
-            <p class="p-mb-0 p-img-center">2) Hot Plate Welding </p>
+            <p class="p-mb-0 p-img-center text-center">2. Hot Plate Welding </p>
             <video class="p-img-center" src="https://thumbs.gfycat.com/FrankScarceJavalina-mobile.mp4" width="100%" autoplay loop muted></video>
 
-            <p class="p-mb-0 p-img-center">3) Induction heating </p>
+            <p class="p-mb-0 p-img-center text-center">3. Induction heating </p>
             <video class="p-img-center" src="https://thumbs.gfycat.com/AnotherLonelyCrab-mobile.mp4" width="100%" autoplay loop muted></video>
 
-            <p class="p-mb-0 p-img-center">4) Capacitor Discharge Welding </p>
+            <p class="p-mb-0 p-img-center text-center">4. Capacitor Discharge Welding </p>
             <video class="p-img-center" src="https://thumbs.gfycat.com/BriefOffensiveGourami-mobile.mp4" width="100%" autoplay loop muted></video>
 
-            <p class="p-mb-0 p-img-center">5) Tig Welding Tips </p>
+            <p class="p-mb-0 p-img-center text-center">5. Tig Welding Tips </p>
             <video class="p-img-center" src="https://thumbs.gfycat.com/FocusedEagerCatbird-mobile.mp4" width="100%" autoplay loop muted></video>
 
-            <p class="p-mb-0 p-img-center">6) How A Wiring Harness Splice is Ultrasonically Welded </p>
+            <p class="p-mb-0 p-img-center text-center">6. How A Wiring Harness Splice is Ultrasonically Welded </p>
             <video class="p-img-center" src="https://thumbs.gfycat.com/WavyLiquidAmericanratsnake-mobile.mp4" width="100%" autoplay loop muted></video>
 
-            <p class="p-mb-0 p-img-center">7) Resistance Spot Welding </p>
+            <p class="p-mb-0 p-img-center text-center">7. Resistance Spot Welding </p>
             <img class="p-img-center" src="https://i.makeagif.com/media/3-09-2015/mv8KV_.gif" width="100%"></img>
 
 

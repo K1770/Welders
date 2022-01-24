@@ -78,40 +78,40 @@
                     </div>
 
                     <div class="justify-content-centers m-4">
-                        <p class="p-mb-0 p-img-center">1) Arc Welding </p>
+                        <p class="p-mb-0 p-img-center text-center">1. Arc Welding </p>
                         <video class="p-img-center" src="https://thumbs.gfycat.com/DefiantDefinitiveAustralianfreshwatercrocodile-mobile.mp4" width="100%" autoplay loop muted></video>
 
-                        <p class="p-mb-0 p-img-center">2) Atomic Hydrogen Arc Welding </p>
+                        <p class="p-mb-0 p-img-center text-center">2. Atomic Hydrogen Arc Welding </p>
                         <video class="p-img-center" src="https://thumbs.gfycat.com/LankyAnimatedIbex-mobile.mp4" width="100%" autoplay loop muted></video>
 
-                        <p class="p-mb-0 p-img-center">3) Explosive Welding </p>
+                        <p class="p-mb-0 p-img-center text-center">3. Explosive Welding </p>
                         <video class="p-img-center" src="https://thumbs.gfycat.com/BogusLikableKodiakbear-mobile.mp4" width="100%" autoplay loop muted></video>
 
-                        <p class="p-mb-0 p-img-center">4) Friction Stir Welding </p>
+                        <p class="p-mb-0 p-img-center text-center">4. Friction Stir Welding </p>
                         <video class="p-img-center" src="https://thumbs.gfycat.com/ReflectingPowerfulCygnet-mobile.mp4" width="100%" autoplay loop muted></video>
 
-                        <p class="p-mb-0 p-img-center">5) Laser Welding </p>
+                        <p class="p-mb-0 p-img-center text-center">5. Laser Welding </p>
                         <video class="p-img-center" src="https://thumbs.gfycat.com/AggravatingWhichAfricanwildcat-mobile.mp4" width="100%" autoplay loop muted></video>
 
-                        <p class="p-mb-0 p-img-center">6) Oxy-Acetylene Welding </p>
+                        <p class="p-mb-0 p-img-center text-center">6. Oxy-Acetylene Welding </p>
                         <video class="p-img-center" src="https://thumbs.gfycat.com/MediocreVioletEarthworm-mobile.mp4" width="100%" autoplay loop muted></video>
 
-                        <p class="p-mb-0 p-img-center">7) Robotised laser welding of textiles </p>
+                        <p class="p-mb-0 p-img-center text-center">7. Robotised laser welding of textiles </p>
                         <video class="p-img-center" src="https://thumbs.gfycat.com/ScentedPrestigiousFieldspaniel-mobile.mp4" width="100%" autoplay loop muted></video>
 
-                        <p class="p-mb-0 p-img-center">8) Shielded Metal Arc Welding </p>
+                        <p class="p-mb-0 p-img-center text-center">8. Shielded Metal Arc Welding </p>
                         <img class="p-img-center" src="https://cdn.dribbble.com/users/2427581/screenshots/4915785/smaw.gif" width="100%"></img>
 
-                        <p class="p-mb-0 p-img-center">9) Submerged Arc Welding </p>
+                        <p class="p-mb-0 p-img-center text-center">9. Submerged Arc Welding </p>
                         <video class="p-img-center" src="https://thumbs.gfycat.com/DismalThriftyChick-mobile.mp4" width="100%" autoplay loop muted></video>
 
-                        <p class="p-mb-0 p-img-center">10) TIG Welding </p>
+                        <p class="p-mb-0 p-img-center text-center">10. TIG Welding </p>
                         <video class="p-img-center" src="https://thumbs.gfycat.com/ElaborateDeadGopher-mobile.mp4" width="100%" autoplay loop muted></video>
 
-                        <p class="p-mb-0 p-img-center">11) Ultrasonic welding </p>
+                        <p class="p-mb-0 p-img-center text-center">11. Ultrasonic welding </p>
                         <video class="p-img-center" src="https://thumbs.gfycat.com/InfatuatedFeminineFish-mobile.mp4" width="100%" autoplay loop muted></video>
 
-                        <p class="p-mb-0 p-img-center">12) Underwater Welding </p>
+                        <p class="p-mb-0 p-img-center text-center">12. Underwater Welding </p>
                         <video class="p-img-center" src="https://thumbs.gfycat.com/DamagedCoordinatedJabiru-mobile.mp4" width="100%" autoplay loop muted></video>
 
 
