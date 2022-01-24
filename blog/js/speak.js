@@ -29,7 +29,8 @@ function speak(btn) {
     }
     console.error(voices);
     console.error(voices[4]);
-    utterThis.voice = voices[4]; //gb female en
+
+    utterThis.voice = voices[3]; //gb female en
 
     utterThis.pitch = 1;
     utterThis.rate = 0.8;

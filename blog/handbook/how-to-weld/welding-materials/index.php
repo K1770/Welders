@@ -78,22 +78,22 @@
           </div>
 
           <div class="justify-content-centers m-4">
-            <p class="p-mb-0 p-img-center">1) Stainless Steel </p>
+            <p class="p-mb-0 p-img-center text-center">1. Stainless Steel </p>
             <video class="p-img-center" src="https://thumbs.gfycat.com/CavernousClassicArabianhorse-mobile.mp4" width="100%" autoplay loop muted></video>
 
-            <p class="p-mb-0 p-img-center">2) Stainless Steel Coating </p>
+            <p class="p-mb-0 p-img-center text-center">2. Stainless Steel Coating </p>
             <video class="p-img-center" src="https://thumbs.gfycat.com/MeatySnappyHairstreak-mobile.mp4" width="100%" autoplay loop muted></video>
 
-            <p class="p-mb-0 p-img-center">3) Stainless Steel Wire to Platinum Wire Welding </p>
+            <p class="p-mb-0 p-img-center text-center">3. Stainless Steel Wire to Platinum Wire Welding </p>
             <video class="p-img-center" src="https://thumbs.gfycat.com/AjarPeriodicAsp-mobile.mp4" width="100%" autoplay loop muted></video>
 
-            <p class="p-mb-0 p-img-center">4) Milling Through Stainless Steel </p>
+            <p class="p-mb-0 p-img-center text-center">4. Milling Through Stainless Steel </p>
             <video class="p-img-center" src="https://thumbs.gfycat.com/JadedAbsoluteBlackfly-mobile.mp4" width="100%" autoplay loop muted></video>
 
-            <p class="p-mb-0 p-img-center">5) Phase Field Modelling: Stainless Steel Solidification </p>
+            <p class="p-mb-0 p-img-center text-center">5. Phase Field Modelling: Stainless Steel Solidification </p>
             <video class="p-img-center" src="https://thumbs.gfycat.com/HauntingCheerfulIchidna-mobile.mp4" width="100%" autoplay loop muted></video>
 
-            <p class="p-mb-0 p-img-center">6) Aluminium </p>
+            <p class="p-mb-0 p-img-center text-center">6. Aluminium </p>
             <img class="p-img-center" src="https://i.makeagif.com/media/3-22-2018/tmCzQG.gif" width="100%"></img>
 
           </div>

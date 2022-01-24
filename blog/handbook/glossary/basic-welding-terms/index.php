@@ -21,11 +21,6 @@
             .mr-2 {
                 margin-right: 0.5rem;
             }
-
-            img:hover {
-                content: url("../_img/volume_hover.png");
-                cursor: pointer;
-            }
         </style>
 
     </head>
@@ -75,7 +70,7 @@
 
                             <form>
                                 <p>
-                                    <strong><em class="mr-2">Arc Voltage </em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                    <strong><em class="mr-2">Arc Voltage </em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                     – the voltage that runs along the welding arc.
                                 </p>
                                 <div>
@@ -85,64 +80,64 @@
 
                             <form>
                                 <p>
-                                    <strong><em class="mr-2">Base Metal</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                    <strong><em class="mr-2">Base Metal</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                     – the metal material that will be welded or cut.
                                 </p>
                             </form>
                             <form>
                                 <p>
-                                    <strong><em class="mr-2">Bond</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                    <strong><em class="mr-2">Bond</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                     – the joining of welding metal and base metal.
                                 </p>
                             </form>
                             <form>
                                 <p>
-                                    <strong><em class="mr-2">Cutting Torch</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                    <strong><em class="mr-2">Cutting Torch</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                     – tool used in gas cutting to control the gases that are used for
                                     preheating and cutting metal.
                                 </p>
                             </form>
                             <form>
                                 <p>
-                                    <strong><em class="mr-2">Goggles</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                    <strong><em class="mr-2">Goggles</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                     – safety equipment worn to protect the welder’s eyes from harmful radiation
                                     while welding and cutting.
                                 </p>
                             </form>
                             <form>
                                 <p>
-                                    <strong><em class="mr-2">Helmet</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                    <strong><em class="mr-2">Helmet</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                     – protection equipment worn to protect the welder’s face and neck.
                                 </p>
                             </form>
                             <form>
                                 <p>
-                                    <strong><em class="mr-2">Liquidus</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                    <strong><em class="mr-2">Liquidus</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                     – the lowest temperature where metal becomes liquid
                                 </p>
                             </form>
                             <form>
                                 <p>
-                                    <strong><em class="mr-2">Melting Point</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                    <strong><em class="mr-2">Melting Point</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                     – the temperature that needs to be reached to allow metal to begin to
                                     liquefy.
                                 </p>
                             </form>
                             <form>
                                 <p>
-                                    <strong><em class="mr-2">Melting Range</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                    <strong><em class="mr-2">Melting Range</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                     – the range of temperatures between solidus and liquidus.
                                 </p>
                             </form>
                             <form>
                                 <p>
-                                    <strong><em class="mr-2">Solidus</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                    <strong><em class="mr-2">Solidus</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                     – the highest temperature where a metal remains completely solid.
                                 </p>
                             </form>
                             <form>
                                 <p>
-                                    <strong><em class="mr-2">Tempering</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                    <strong><em class="mr-2">Tempering</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                     <strong> </strong>
                                     – process of reheating hardened steel below the lowest critical temperature
                                     and then allowing it to cool to make the steel stronger.
@@ -150,7 +145,7 @@
                             </form>
                             <form>
                                 <p>
-                                    <strong><em class="mr-2">Weld</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                    <strong><em class="mr-2">Weld</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                     – a point where metals have been fused together by heating the materials to
                                     a suitable temperature. Filler metals or pressure may be used to accomplish
                                     the weld.
@@ -158,20 +153,20 @@
                             </form>
                             <form>
                                 <p>
-                                    <strong><em class="mr-2">Welder Certification</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                    <strong><em class="mr-2">Welder Certification</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                     – document certifying that the welder has made his welds according to the
                                     standards prescribed.
                                 </p>
                             </form>
                             <form>
                                 <p>
-                                    <strong><em class="mr-2">Welding Tip</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                    <strong><em class="mr-2">Welding Tip</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                     – The tip of a weld gun
                                 </p>
                             </form>
                             <form>
                                 <p>
-                                    <strong><em class="mr-2">Welding Torch</em><img src="../_img/volume.png" onclick="speak(this)" width="25px"></strong>
+                                    <strong><em class="mr-2">Welding Torch</em><img src="../_img/volume.png" onmouseover="this.src='../_img/volume_hover.png'" onmouseout="this.src='../_img/volume.png'" onclick="speak(this)" width="25px"></strong>
                                     – tool used for gas welding to control the flow of gases used.
                                 </p>
                             </form>
