@@ -74,7 +74,7 @@
       <div class="card card-block mr-2 me-2 m-w40">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-secondary">Materials</strong>
+            <strong class="d-inline-block mb-2 text-success">Materials</strong>
             <h3 class="mb-0">Module II</h3>
             <p class="card-text mb-auto">Information about mechanical and chemical properties of stainless steel, aluminum.</p>
             <a draggable="false" href="module-2/index.php" class="stretched-link">Continue reading</a>
@@ -87,7 +87,7 @@
       <div class="card card-block mr-2 me-2 m-w40">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-success">Types</strong>
+            <strong class="d-inline-block mb-2 text-secondary">Types</strong>
             <h3 class="mb-0">Module III</h3>
             <p class="card-text mb-auto">Information about welding symbols, ISO system, basic features of Alternative types of Welding, Arc and Gas Welding.</p>
             <a draggable="false" href="module-3/index.php" class="stretched-link">Continue reading</a>

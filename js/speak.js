@@ -1,11 +1,16 @@
+window.speechSynthesis.getVoices();
+
 var synth = window.speechSynthesis;
 var inputForm = document.querySelector('form');
-
 
 var voices = [];
 let k = 4;
 
 function populateVoiceList() {
+
+    console.log("synth");
+    console.log(synth.getVoices())
+
     voices = synth.getVoices().sort(function (a, b) {
         const aname = a.name.toUpperCase(), bname = b.name.toUpperCase();
         if (aname < bname) return -1;
@@ -21,7 +26,6 @@ function populateVoiceList() {
     }
 }
 
-
 if (speechSynthesis.onvoiceschanged !== undefined) {
     speechSynthesis.onvoiceschanged = populateVoiceList;
 }
@@ -32,7 +36,6 @@ function speak(btn) {
         console.error('speechSynthesis.speaking');
         return;
     }
-
 
     var utterThis = new SpeechSynthesisUtterance(btn.previousSibling.innerHTML);
     utterThis.onend = function (event) {
