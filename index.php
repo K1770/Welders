@@ -30,12 +30,12 @@
       overflow: auto;
     }
 
-    .m-w35 {
-      min-width: 35%;
+    .m-w40 {
+      min-width: 40%;
     }
 
     @media (max-width: 1100px) {
-      .m-w35 {
+      .m-w40 {
         min-width: 45%;
       }
     }
@@ -58,12 +58,12 @@
     </div>
 
     <div class="d-flex flex-row flex-nowrap overflow-auto scrollbar-div pb-1" id="drag-to-scroll-cards" style="overflow: auto; ">
-      <div class="card card-block mr-2 me-2 m-w35">
+      <div class="card card-block mr-2 me-2 m-w40">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary">Information</strong>
             <h3 class="mb-0">Module I</h3>
-            <p class="card-text mb-auto">General information about welding.</p>
+            <p class="card-text mb-auto">Information about the history of welding, welding equipment and materials.</p>
             <a draggable="false" href="module-1/index.php" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block" style="background: red">
@@ -71,12 +71,12 @@
           </div>
         </div>
       </div>
-      <div class="card card-block mr-2 me-2 m-w35">
+      <div class="card card-block mr-2 me-2 m-w40">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-secondary">Materials</strong>
             <h3 class="mb-0">Module II</h3>
-            <p class="card-text mb-auto">Welding materials.</p>
+            <p class="card-text mb-auto">Information about mechanical and chemical properties of stainless steel, aluminum.</p>
             <a draggable="false" href="module-2/index.php" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">
@@ -84,12 +84,12 @@
           </div>
         </div>
       </div>
-      <div class="card card-block mr-2 me-2 m-w35">
+      <div class="card card-block mr-2 me-2 m-w40">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-success">Types</strong>
             <h3 class="mb-0">Module III</h3>
-            <p class="card-text mb-auto">Types of welding.</p>
+            <p class="card-text mb-auto">Information about welding symbols, ISO system, basic features of Alternative types of Welding, Arc and Gas Welding.</p>
             <a draggable="false" href="module-3/index.php" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">
@@ -97,12 +97,12 @@
           </div>
         </div>
       </div>
-      <div class="card card-block mr-2 m-w35">
+      <div class="card card-block mr-2 m-w40">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-danger">Safety</strong>
             <h3 class="mb-0">Module IV</h3>
-            <p class="card-text mb-auto">Health Safety and Skill Competition.</p>
+            <p class="card-text mb-auto">Information about health risks of welding fume, potential hazards from breathing in particulate fume.</p>
             <a draggable="false" href="module-4/index.php" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">
