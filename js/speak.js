@@ -5,7 +5,12 @@ var inputForm = document.querySelector('form');
 var voices = [];
 
 function populateVoiceList() {
-    voices = synth.getVoices()
+    voices = synth.getVoices().sort(function (a, b) {
+        const aname = a.name.toUpperCase(), bname = b.name.toUpperCase();
+        if (aname < bname) return -1;
+        else if (aname == bname) return 0;
+        else return +1;
+    });
 }
 
 if (speechSynthesis.onvoiceschanged !== undefined) {
@@ -28,9 +33,9 @@ function speak(btn) {
         console.error('SpeechSynthesisUtterance.onerror');
     }
     console.error(voices);
-    console.error(voices[4]);
+    console.error(voices[3]);
 
-    utterThis.voice = voices[3]; //gb female en
+    utterThis.voice = voices[11]; //gb female en
 
     utterThis.pitch = 1;
     utterThis.rate = 0.8;
