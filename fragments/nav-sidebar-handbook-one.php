@@ -1,4 +1,23 @@
 <!-- <h1><?php echo $category1; ?></h1> -->
+<style>
+    @media (max-width: 768px) {
+        .name-align-left {
+            text-align: left;
+            padding-left: 2.5rem !important;
+        }
+
+        .li-align-left {
+            text-align: left;
+            padding-left: 15% !important;
+            margin: 0 !important;
+            width: 100%;
+        }
+
+        .btn-toggle-nav a {
+            display: inline-block;
+        }
+    }
+</style>
 
 <div class="flex-shrink-0 px-3 pt-2 bg-white" hi>
     <div class="text-center">
@@ -11,22 +30,22 @@
 
 
         <li class="mb-1">
-            <button class="btn btn-toggle align-items-center rounded collapsed btn-menu" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+            <button class="btn btn-toggle align-items-center rounded collapsed btn-menu name-align-left" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
                 Topics
             </button>
             <div class="collapse show" id="home-collapse">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <?php echo '<li><a href="' . $categoryLink1 . '" class="link-dark rounded a-menu">Welder’s clothing</a></li>' ?>
-                    <?php echo '<li><a href="' . $categoryLink2 . '" class="link-dark rounded a-menu">Welder’s workplace</a></li>' ?>
-                    <?php echo '<li><a href="' . $categoryLink3 . '" class="link-dark rounded a-menu">Health and safety prevention</a></li>' ?>
+                    <?php echo '<li><a href="' . $categoryLink1 . '" class="link-dark rounded a-menu li-align-left">Welder’s clothing</a></li>' ?>
+                    <?php echo '<li><a href="' . $categoryLink2 . '" class="link-dark rounded a-menu li-align-left">Welder’s workplace</a></li>' ?>
+                    <?php echo '<li><a href="' . $categoryLink3 . '" class="link-dark rounded a-menu li-align-left">Health and safety prevention</a></li>' ?>
 
-                    <?php echo '<li><a href="' . $categoryLink4 . '" class="link-dark rounded a-menu">Metalwork</a></li>' ?>
-                    <?php echo '<li><a href="' . $categoryLink5 . '" class="link-dark rounded a-menu">Symbols in welding</a></li>' ?>
-                    <?php echo '<li><a href="' . $categoryLink6 . '" class="link-dark rounded a-menu">How to Weld</a></li>' ?>
+                    <?php echo '<li><a href="' . $categoryLink4 . '" class="link-dark rounded a-menu li-align-left">Metalwork</a></li>' ?>
+                    <?php echo '<li><a href="' . $categoryLink5 . '" class="link-dark rounded a-menu li-align-left">Symbols in welding</a></li>' ?>
+                    <?php echo '<li><a href="' . $categoryLink6 . '" class="link-dark rounded a-menu li-align-left">How to Weld</a></li>' ?>
 
-                    <?php echo '<li><a href="' . $categoryLink7 . '" class="link-dark rounded a-menu">Glossary</a></li>' ?>
-                    <?php echo '<li><a href="' . $categoryLink8 . '" class="link-dark rounded a-menu">Welding calculations</a></li>' ?>
-                    <?php echo '<li><a href="' . $categoryLink9 . '" class="link-dark rounded a-menu" target="_blank">Test</a></li>' ?>
+                    <?php echo '<li><a href="' . $categoryLink7 . '" class="link-dark rounded a-menu li-align-left">Glossary</a></li>' ?>
+                    <?php echo '<li><a href="' . $categoryLink8 . '" class="link-dark rounded a-menu li-align-left">Welding calculations</a></li>' ?>
+                    <?php echo '<li><a href="' . $categoryLink9 . '" class="link-dark rounded a-menu li-align-left" target="_blank">Test</a></li>' ?>
 
                 </ul>
             </div>

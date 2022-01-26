@@ -1,54 +1,20 @@
 <!-- <h1><?php echo $category1; ?></h1> -->
 <style>
     @media (max-width: 768px) {
-        .left {
-            padding-left: 10% !important;
-        }
-
-        /* .text-center {
-            text-align: left !important;
-        } */
-
-        /* 
-        .pad-50 {
-            padding-left: 50%;
-        } */
-
-
-        .pad-0 {
-            padding-left: 0;
-        }
-
-        .marg-0 {
-            margin-left: 0;
-        }
-
-        .align-left {
+        .name-align-left {
             text-align: left;
+            padding-left: 2.5rem !important;
         }
 
-        .pad-align-left {
+        .li-align-left {
             text-align: left;
-            padding-left: 20% !important;
+            padding-left: 15% !important;
             margin: 0 !important;
             width: 100%;
         }
 
-        ul,
-        li {
-
-            margin: 0;
-
-            padding: 0;
-
-        }
-
         .btn-toggle-nav a {
             display: inline-block;
-
-            margin-top: 0;
-            margin-left: 0;
-            margin-right: 0;
         }
     }
 </style>
@@ -62,26 +28,26 @@
 
     <ul class="list-unstyled ps-0 menu-ul">
         <li class="mb-1">
-            <button class="btn btn-toggle align-items-center rounded collapsed btn-menu pad-50 align-left left" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+            <button class="btn btn-toggle align-items-center rounded collapsed btn-menu pad-50 name-align-left left" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
                 Category
             </button>
             <div class="collapse show" id="home-collapse">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <?php echo '<li class=""><a href="' . $categoryLink1 . '" class="link-dark rounded a-menu pad-0 marg-0 pad-align-left">Basic Information</a></li>' ?>
-                    <?php echo '<li><a href="' . $categoryLink2 . '" class="link-dark rounded a-menu pad-align-left">Video</a></li>' ?>
-                    <?php echo '<li><a href="' . $categoryLink3 . '" class="link-dark rounded a-menu pad-align-left">Vocabulary</a></li>' ?>
+                    <?php echo '<li class=""><a href="' . $categoryLink1 . '" class="link-dark rounded a-menu li-align-left">Basic Information</a></li>' ?>
+                    <?php echo '<li><a href="' . $categoryLink2 . '" class="link-dark rounded a-menu li-align-left">Video</a></li>' ?>
+                    <?php echo '<li><a href="' . $categoryLink3 . '" class="link-dark rounded a-menu li-align-left">Vocabulary</a></li>' ?>
                 </ul>
             </div>
         </li>
         <li class="mb-1">
-            <button class="btn btn-toggle align-items-center rounded collapsed btn-menu pad-50 align-left left" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="true">
+            <button class="btn btn-toggle align-items-center rounded collapsed btn-menu pad-50 name-align-left left" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="true">
                 Topics
             </button>
             <div class="collapse show" id="dashboard-collapse">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                     <?php
                     foreach ($topicLinks as $key => $value) {
-                        echo '<li><a href="' . $value . '" class="link-dark rounded a-menu pad-align-left">' . $key . '</a></li>';
+                        echo '<li><a href="' . $value . '" class="link-dark rounded a-menu li-align-left">' . $key . '</a></li>';
                     }
                     ?>
                 </ul>
