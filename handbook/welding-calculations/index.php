@@ -86,12 +86,16 @@
 
         @media (min-width: 1100px) {
             .block-center {
-                width: 80%;
+                /* width: 80%; */
                 display: flex;
                 flex-direction: column;
                 align-items: center !important;
                 margin-left: auto;
                 margin-right: auto;
+            }
+
+            .w-70 {
+                width: 70% !important;
             }
         }
     </style>
@@ -130,28 +134,14 @@
 
                 <div class="col-md-9">
 
-                    <div class="py-1 text-center container ">
-                        <h2 class="fw-light">Weld Strength Calculation</h2>
-                    </div>
 
-                    <div class="mb-5 block-center">
-
-                        <div class="omni-calculator " data-calculator="construction/welding" data-width="100%" data-config='{}' data-currency="BYR" data-show-row-controls="false" data-version="3" data-t="1642078898726">
-                            <div class="omni-calculator-header"></div>
-                            <div class="omni-calculator-footer">
-                                <a href="https://www.omnicalculator.com/construction/welding" target="_blank"></a>
-                            </div>
-                        </div>
-                        <script async src="./sdk.js"></script>
-
-                    </div>
 
 
                     <div class="py-1 text-center container ">
                         <h2 class="fw-light">Weld Consumable Calculator – BUTT AND FILLET WELDS</h2>
                     </div>
 
-                    <div class="mb-5 block-center">
+                    <div class="mb-5 block-center w-70">
 
                         <?php include('./weld-consumable-calculator/index.php') ?>
                     </div> <!-- col-md-8 -->
@@ -161,7 +151,7 @@
                         <h2 class="fw-light">Welding Heat Input</h2>
                     </div>
 
-                    <div class="mb-5 block-center">
+                    <div class="block-center ">
                         <div class="mb-5 bg-3 flex-whi">
                             <div class="gfield_top">
                                 <label class="label">Arc Voltage (V)</label>
@@ -205,8 +195,25 @@
                         </div> <!-- col-md-8 -->
                     </div>
 
+
+
                 </div>
                 <!--? -->
+                <div class="py-1 text-center container ">
+                    <h2 class="fw-light">Weld Strength Calculation</h2>
+                </div>
+
+                <div class="mb-5 block-center w-70">
+
+                    <div class="omni-calculator " data-calculator="construction/welding" data-width="100%" data-config='{}' data-currency="BYR" data-show-row-controls="false" data-version="3" data-t="1642078898726">
+                        <div class="omni-calculator-header"></div>
+                        <div class="omni-calculator-footer">
+                            <a href="https://www.omnicalculator.com/construction/welding" target="_blank"></a>
+                        </div>
+                    </div>
+                    <script async src="./sdk.js"></script>
+
+                </div>
 
             </div>
             <!--? -->

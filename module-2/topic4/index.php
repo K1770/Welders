@@ -25,7 +25,7 @@
   <main class="container container2">
 
     <div class="py-1 text-center container ">
-      <h2 class="fw-light">Cast iron, copper and its alloys</h2>
+      <h2 class="fw-light">Cast iron, copper and its alloys - Categories</h2>
     </div>
 
     <div class="album py-2 bg-white">
