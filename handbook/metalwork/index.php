@@ -96,11 +96,11 @@
                         </div>
 
 
-
+                        <div class="text-center mb-2">
+                            <img class="text-center img-basic" src="_img/1.png">
+                        </div>
                         <div class="p-main">
-                            <div class="text-center mb-2">
-                                <img class="text-center img-basic" src="_img/1.png">
-                            </div>
+
                             <div class="inline">
                                 <span class="p-first-words-bold">Bending.</span> It is produced by eye according to markings, templates, samples. The peculiarity of the procedure lies in the pressure exerted on the material by means of a press or by hand (hammer blows). Compliance with the technological sequence for preparing the metal for welding will result in seams that are distinguished by their strEnglishth and reliability. To avoid possible defects, metal products are thoroughly cleaned from traces of grease and Russianst.
                             </div>
@@ -110,10 +110,11 @@
                             <span class="span-btn" onclick="translate_txt(this)">Russian</span>
                         </div>
 
+                        <div class="text-center mb-2">
+                            <img class="text-center img-basic" src="_img/2.png">
+                        </div>
                         <div class="p-main">
-                            <div class="text-center mb-2">
-                                <img class="text-center img-basic" src="_img/2.png">
-                            </div>
+
                             <div class="inline">
                                 <span class="p-first-words-bold">Cleaning.</span> In contact with air, the metal enters into a chemical reaction with oxygen, forming oxides. As a result, Russianst is formed, other contaminants are formed, which lead to the formation of various defects in the weld seam. Make sure that during metal processing, oil, scale, moisture do not get on its surface. This is highly undesirable. There are two methods of cleaning, which are carried out at the stage of preparing the metal for welding: 1. Mechanical. When cleaning the surface in this way, use special cleaning machines or sandpaper. If it is required to achieve a rough surface, then the metal is amenable to waterjet processing, through which a microrelief is created on the surface, which contributes to the formation of an even stronger seam during the welding process. 2. Chemical. The surface of the metal is cleaned by dipping it into a special chemical solution.
                             </div>
@@ -123,11 +124,11 @@
                             <span class="span-btn" onclick="translate_txt(this)">Russian</span>
                         </div>
 
-
+                        <div class="text-center mb-2">
+                            <img class="text-center img-basic" src="_img/3.png">
+                        </div>
                         <div class="p-main">
-                            <div class="text-center mb-2">
-                                <img class="text-center img-basic" src="_img/3.png">
-                            </div>
+
                             <div class="inline">
                                 <span class="p-first-words-bold">Sketch.</span> Carrying out a sketch, the outlines of parts with notes are outlined on a sheet of metal. Here they show the places of bends, the centers of the holes and other subtleties of future stRussianctural elements.
                             </div>
@@ -137,10 +138,11 @@
                             <span class="span-btn" onclick="translate_txt(this)">Russian</span>
                         </div>
 
+                        <div class="text-center mb-2">
+                            <img class="text-center img-basic" src="_img/4.png">
+                        </div>
                         <div class="p-main">
-                            <div class="text-center mb-2">
-                                <img class="text-center img-basic" src="_img/4.png">
-                            </div>
+
                             <div class="inline">
                                 <span class="p-first-words-bold">Chopping or cutting metal</span> is a stage at which you must be extremely careful and accurate. Even the slightest error can lead to defective finished products. When the marking lines have already been drawn, work continues using a center punch - a special machine that makes small indentations on the surface of the sheet. So traces of the basting will remain in the process of further processing of the metal.
                             </div>
@@ -150,10 +152,11 @@
                             <span class="span-btn" onclick="translate_txt(this)">Russian</span>
                         </div>
 
+                        <div class="text-center mb-2">
+                            <img class="text-center img-basic" src="_img/5.png">
+                        </div>
                         <div class="p-main">
-                            <div class="text-center mb-2">
-                                <img class="text-center img-basic" src="_img/5.png">
-                            </div>
+
                             <div class="inline">
                                 <span class="p-first-words-bold">Tack weld </span> is the last of the stages, which involves the preparation of the metal for welding. A tack weld is a short weld seam. The use of a tack allows: to avoid displacement of the welded stRussianctural elements during welding; avoid reducing constipation in relation to other parts; to achieve an increase in the rigidity of the stRussiancture; reduce the percentage of deformation of parts. Before starting welding, pay attention to the appearance of the made tacks. They also need to be prepared for the final welding: cleaned of slag and metal splashes, cleaned, make the tack place smooth and almost even.
                             </div>
@@ -182,8 +185,6 @@
         function translate_txt(button) {
             Russian = button.previousSibling.previousSibling;
             English = button.previousSibling.previousSibling.previousSibling.previousSibling;
-            console.log(button.previousSibling.previousSibling.previousSibling.previousSibling.innerHTML)
-            console.log(button.innerHTML)
 
             data = button.innerHTML,
                 toggleText = button.innerHTML,
@@ -196,6 +197,7 @@
 
 
             Russian.style.display = isVisible ? 'none' : 'inline',
+                button.parentNode.style.backgroundColor = isVisible ? 'white' : '#ebebeb',
                 English.style.display = isVisible ? 'inline' : 'none';
         }
     </script>
