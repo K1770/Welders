@@ -3,6 +3,7 @@ var inputForm = document.querySelector('form');
 
 
 var voices = [];
+let k;
 
 function populateVoiceList() {
     voices = synth.getVoices().sort(function (a, b) {
@@ -12,10 +13,14 @@ function populateVoiceList() {
         else return +1;
     });
     for (let i = 0; i < voices.length; i++) {
-        const element = array[i];
+        let voiceURI = ['Google US English'];
+        if (voices[i].voiceURI == voiceURI[0]) {
+            k = i;
+        }
 
     }
 }
+
 
 if (speechSynthesis.onvoiceschanged !== undefined) {
     speechSynthesis.onvoiceschanged = populateVoiceList;
@@ -37,9 +42,9 @@ function speak(btn) {
         console.error('SpeechSynthesisUtterance.onerror');
     }
     console.error(voices);
-    console.error(voices[11]);
+    console.error(voices[k].voiceURI);
 
-    utterThis.voice = voices[11]; //gb female en
+    utterThis.voice = voices[k]; //gb female en
 
     utterThis.pitch = 1;
     utterThis.rate = 0.8;
