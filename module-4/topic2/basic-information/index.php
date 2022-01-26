@@ -56,10 +56,10 @@
 
 
               <div class="p-main">
-                <span class="p-first-words">1. The Wordskills Competion is the biggest vocational education and skills excellence event in the world that truly reflects global industry. It is hold every two years. The competitors demonstrate technical abilities and skills in 45 trades. They do specific tasks for which they study and/ or perform in their workplace. They do in both individually and collectively.</span>
+                <span class="p-first-words">1. The Wordskills Competition  is the biggest vocational education and skills excellence event in the world that truly reflects global industry. It is hold every two years. The competitors demonstrate technical abilities and skills in 45 trades. They do specific tasks for which they study and/ or perform in their workplace. They do in both individually and collectively.</span>
               </div>
               <div class="p-main">
-                <span class="p-first-words">2. One of the main goals of the Wordlskills Competion is to give importance to professional education, as one of the true tools of socioeconomic transformation. The competion also provides leaders in the industry, government and education with the opportunity to exchange information and best practices in different industries and professional education. New ideas and processes inspire school-aged youth to technical and technological careers and towards a better future.</span>
+                <span class="p-first-words">2. One of the main goals of the Wordlskills Competition  is to give importance to professional education, as one of the true tools of socioeconomic transformation. The competition also provides leaders in the industry, government and education with the opportunity to exchange information and best practices in different industries and professional education. New ideas and processes inspire school-aged youth to technical and technological careers and towards a better future.</span>
               </div>
 
               <div class="p-main">

@@ -580,7 +580,7 @@
               4) What do you have to know to take part in the Competition?
             </p>
             <p>
-              5) What do you have to do in the Competion?
+              5) What do you have to do in the Competition?
             </p>
             <p>
               <strong>5.</strong> Complete the sentences using the given words.
@@ -602,7 +602,7 @@
               3) The ………… reflects global industry.
             </p>
             <p>
-              4) The competion also ……………. the opportunity to……….. information and best
+              4) The competition also ……………. the opportunity to……….. information and best
               practices, in different industries and ………….. education.
             </p>
             <p>

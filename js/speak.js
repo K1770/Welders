@@ -3,7 +3,7 @@ var inputForm = document.querySelector('form');
 
 
 var voices = [];
-let k;
+let k = 4;
 
 function populateVoiceList() {
     voices = synth.getVoices().sort(function (a, b) {
