@@ -11,6 +11,10 @@ function populateVoiceList() {
         else if (aname == bname) return 0;
         else return +1;
     });
+    for (let i = 0; i < voices.length; i++) {
+        const element = array[i];
+
+    }
 }
 
 if (speechSynthesis.onvoiceschanged !== undefined) {
@@ -23,7 +27,7 @@ function speak(btn) {
         console.error('speechSynthesis.speaking');
         return;
     }
-    console.log(btn.previousSibling.innerHTML)
+
 
     var utterThis = new SpeechSynthesisUtterance(btn.previousSibling.innerHTML);
     utterThis.onend = function (event) {
@@ -33,7 +37,7 @@ function speak(btn) {
         console.error('SpeechSynthesisUtterance.onerror');
     }
     console.error(voices);
-    console.error(voices[3]);
+    console.error(voices[11]);
 
     utterThis.voice = voices[11]; //gb female en
 
