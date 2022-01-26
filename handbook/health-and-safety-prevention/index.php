@@ -258,6 +258,7 @@
 
             Russian.style.display = isVisible ? 'none' : 'inline',
                 English.style.display = isVisible ? 'inline' : 'none';
+            button.parentNode.style.backgroundColor = isVisible ? 'white' : '#ebebeb',
         }
     </script>
     <?php include('../../fragments/footer.php') ?>
