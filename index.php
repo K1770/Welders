@@ -39,6 +39,12 @@
         min-width: 45%;
       }
     }
+
+    @media (max-width: 768px) {
+      .g-0 {
+        min-height: 23rem;
+      }
+    }
   </style>
 </head>
 
@@ -89,7 +95,7 @@
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-success">Types</strong>
             <h3 class="mb-0">Module III</h3>
-            <p class="card-text mb-auto">Information about welding symbols, ISO system, basic features of Alternative types of Welding, Arc and Gas Welding.</p>
+            <p class="card-text mb-auto">Information about welding symbols, ISO system, Arc and Gas Welding.</p>
             <a draggable="false" href="module-3/index.php" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">

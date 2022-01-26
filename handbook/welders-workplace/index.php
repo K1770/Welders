@@ -60,9 +60,9 @@
             }
         }
 
-        @media (max-width: 768px) {
-            .w-50 {
-                width: auto !important;
+        @media (max-width: 1100px) {
+            .w-100 {
+                width: 100% !important;
             }
 
             #num-1,
@@ -210,28 +210,28 @@
                     <!-- Button trigger modal -->
                     <div class="row mb-4 center">
                         <div class="col-2 d-flex justify-content-center">
-                            <button type="button" onmouseover="hoverItem('num-1')" onmouseout="basicItem('num-1')" class="btn btn-primary btn-block w-50" name="myButton1" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
+                            <button type="button" onmouseover="hoverItem('num-1')" onmouseout="basicItem('num-1')" class="btn btn-primary btn-block w-100" name="myButton1" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
                                 1
                             </button>
                         </div>
                         <div class="col-2 d-flex justify-content-center">
-                            <button type="button" onmouseover="hoverItem('num-2')" onmouseout="basicItem('num-2')" class="btn btn-primary btn-block w-50" name="myButton2" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
+                            <button type="button" onmouseover="hoverItem('num-2')" onmouseout="basicItem('num-2')" class="btn btn-primary btn-block w-100" name="myButton2" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
                                 2
                             </button>
                         </div>
                         <div class="col-2 d-flex justify-content-center">
-                            <button type="button" onmouseover="hoverItem('num-3')" onmouseout="basicItem('num-3')" class="btn btn-primary btn-block w-50" name="myButton3" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
+                            <button type="button" onmouseover="hoverItem('num-3')" onmouseout="basicItem('num-3')" class="btn btn-primary btn-block w-100" name="myButton3" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
                                 3
                             </button>
                         </div>
                         <div class="col-2 d-flex justify-content-center">
-                            <button type="button" onmouseover="hoverItem('num-4')" onmouseout="basicItem('num-4')" class="btn btn-primary btn-block w-50" name="myButton4" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
+                            <button type="button" onmouseover="hoverItem('num-4')" onmouseout="basicItem('num-4')" class="btn btn-primary btn-block w-100" name="myButton4" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
                                 4
                             </button>
                         </div>
 
                         <div class="col-2 d-flex justify-content-center">
-                            <button type="button" onmouseover="hoverItem('num-5')" onmouseout="basicItem('num-5')" class="btn btn-primary btn-block w-50" name="myButton5" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
+                            <button type="button" onmouseover="hoverItem('num-5')" onmouseout="basicItem('num-5')" class="btn btn-primary btn-block w-100" name="myButton5" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
                                 5
                             </button>
                         </div>
@@ -240,28 +240,28 @@
                     <!-- Button trigger modal -->
                     <div class="row mb-4 center">
                         <div class="col-2 d-flex justify-content-center">
-                            <button type="button" onmouseover="hoverItem('num-6')" onmouseout="basicItem('num-6')" class="btn btn-primary btn-block w-50" name="myButton6" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
+                            <button type="button" onmouseover="hoverItem('num-6')" onmouseout="basicItem('num-6')" class="btn btn-primary btn-block w-100" name="myButton6" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
                                 6
                             </button>
                         </div>
                         <div class="col-2 d-flex justify-content-center">
-                            <button type="button" onmouseover="hoverItem('num-7')" onmouseout="basicItem('num-7')" class="btn btn-primary btn-block w-50" name="myButton7" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
+                            <button type="button" onmouseover="hoverItem('num-7')" onmouseout="basicItem('num-7')" class="btn btn-primary btn-block w-100" name="myButton7" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
                                 7
                             </button>
                         </div>
                         <div class="col-2 d-flex justify-content-center">
-                            <button type="button" onmouseover="hoverItem('num-8')" onmouseout="basicItem('num-8')" class="btn btn-primary btn-block w-50" name="myButton8" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
+                            <button type="button" onmouseover="hoverItem('num-8')" onmouseout="basicItem('num-8')" class="btn btn-primary btn-block w-100" name="myButton8" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
                                 8
                             </button>
                         </div>
                         <div class="col-2 d-flex justify-content-center">
-                            <button type="button" onmouseover="hoverItem('num-9')" onmouseout="basicItem('num-9')" class="btn btn-primary btn-block w-50" name="myButton9" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
+                            <button type="button" onmouseover="hoverItem('num-9')" onmouseout="basicItem('num-9')" class="btn btn-primary btn-block w-100" name="myButton9" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
                                 9
                             </button>
                         </div>
 
                         <div class="col-2 d-flex justify-content-center">
-                            <button type="button" onmouseover="hoverItem('num-10')" onmouseout="basicItem('num-10')" class="btn btn-primary btn-block w-50" name="myButton10" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
+                            <button type="button" onmouseover="hoverItem('num-10')" onmouseout="basicItem('num-10')" class="btn btn-primary btn-block w-100" name="myButton10" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="changeText(this)">
                                 10
                             </button>
                         </div>
