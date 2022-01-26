@@ -61,7 +61,7 @@
       <div class="card card-block mr-2 me-2 m-w35">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-primary">About</strong>
+            <strong class="d-inline-block mb-2 text-primary">Information</strong>
             <h3 class="mb-0">Module I</h3>
             <p class="card-text mb-auto">General information about welding.</p>
             <a draggable="false" href="module-1/index.php" class="stretched-link">Continue reading</a>
@@ -74,7 +74,7 @@
       <div class="card card-block mr-2 me-2 m-w35">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-primary">Mechanical</strong>
+            <strong class="d-inline-block mb-2 text-secondary">Materials</strong>
             <h3 class="mb-0">Module II</h3>
             <p class="card-text mb-auto">Welding materials.</p>
             <a draggable="false" href="module-2/index.php" class="stretched-link">Continue reading</a>
@@ -87,7 +87,7 @@
       <div class="card card-block mr-2 me-2 m-w35">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-primary">About</strong>
+            <strong class="d-inline-block mb-2 text-success">Types</strong>
             <h3 class="mb-0">Module III</h3>
             <p class="card-text mb-auto">Types of welding.</p>
             <a draggable="false" href="module-3/index.php" class="stretched-link">Continue reading</a>
@@ -100,7 +100,7 @@
       <div class="card card-block mr-2 m-w35">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-primary">About</strong>
+            <strong class="d-inline-block mb-2 text-danger">Safety</strong>
             <h3 class="mb-0">Module IV</h3>
             <p class="card-text mb-auto">Health Safety and Skill Competition.</p>
             <a draggable="false" href="module-4/index.php" class="stretched-link">Continue reading</a>
