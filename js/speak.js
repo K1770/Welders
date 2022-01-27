@@ -49,6 +49,7 @@ function speak(btn) {
 
     utterThis.voice = voices[k]; //gb female en
 
+    utterThis.lang = 'en-US';
     utterThis.pitch = 1;
     utterThis.rate = 0.8;
     synth.speak(utterThis);
