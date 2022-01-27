@@ -46,7 +46,7 @@
 
     @media (max-width: 768px) {
       .display-6 {
-        font-size: 1rem;
+        font-size: 1.05rem;
       }
     }
 

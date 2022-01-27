@@ -65,7 +65,7 @@
 
     <div class="d-flex flex-row flex-nowrap overflow-auto scrollbar-div pb-1" id="drag-to-scroll-cards" style="overflow: auto; ">
       <div class="card card-block mr-2 me-2 m-w40">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative h-100">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary">Information</strong>
             <h3 class="mb-0">Module I</h3>
@@ -78,7 +78,7 @@
         </div>
       </div>
       <div class="card card-block mr-2 me-2 m-w40">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative h-100">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-success">Materials</strong>
             <h3 class="mb-0">Module II</h3>
@@ -91,7 +91,7 @@
         </div>
       </div>
       <div class="card card-block mr-2 me-2 m-w40">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative h-100">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-secondary">Types</strong>
             <h3 class="mb-0">Module III</h3>
@@ -104,7 +104,7 @@
         </div>
       </div>
       <div class="card card-block mr-2 m-w40">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative h-100">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-danger">Safety</strong>
             <h3 class="mb-0">Module IV</h3>
