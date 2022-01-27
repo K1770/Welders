@@ -42,11 +42,11 @@
 
     @media (max-width: 768px) {
       .g-0 {
-        min-height: 20rem;
+        min-height: 23rem;
       }
 
       .m-w40 {
-        min-width: 50%;
+        min-width: 60%;
       }
     }
   </style>
