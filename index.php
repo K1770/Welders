@@ -30,19 +30,19 @@
       overflow: auto;
     }
 
-    .m-w40 {
+    .card-width {
       min-width: 40%;
     }
 
     @media (max-width: 1100px) {
-      .m-w40 {
+      .card-width {
         min-width: 45%;
       }
 
     }
 
     @media (max-width: 768px) {
-      .m-w40 {
+      .card-width {
         min-width: 50%;
       }
     }
@@ -65,7 +65,7 @@
     </div>
 
     <div class="d-flex flex-row flex-nowrap overflow-auto scrollbar-div pb-1" id="drag-to-scroll-cards" style="overflow: auto; ">
-      <div class="card card-block mr-2 me-2 m-w40">
+      <div class="card card-block mr-2 me-2 card-width">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative h-100">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary">Information</strong>
@@ -78,7 +78,7 @@
           </div>
         </div>
       </div>
-      <div class="card card-block mr-2 me-2 m-w40">
+      <div class="card card-block mr-2 me-2 card-width">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative h-100">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-success">Materials</strong>
@@ -91,7 +91,7 @@
           </div>
         </div>
       </div>
-      <div class="card card-block mr-2 me-2 m-w40">
+      <div class="card card-block mr-2 me-2 card-width">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative h-100">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-secondary">Types</strong>
@@ -104,7 +104,7 @@
           </div>
         </div>
       </div>
-      <div class="card card-block mr-2 m-w40">
+      <div class="card card-block mr-2 card-width">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative h-100">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-danger">Safety</strong>
