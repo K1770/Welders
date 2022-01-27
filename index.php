@@ -38,11 +38,12 @@
       .m-w40 {
         min-width: 45%;
       }
+
     }
 
     @media (max-width: 768px) {
       .m-w40 {
-        min-width: 55%;
+        min-width: 50%;
       }
     }
   </style>
