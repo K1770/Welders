@@ -11,7 +11,7 @@
     <link href="../../../css/sidebars.css" rel="stylesheet">
     <link href="../../../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <script src="../../../sidebars.js"></script>
+    <script src="../../../js/sidebars.js"></script>
     <script src="../../../assets/dist/js/bootstrap.bundle.min.js"></script> <!-- top menu -->
     <style>
         .mr-2 {

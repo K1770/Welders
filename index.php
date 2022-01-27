@@ -42,8 +42,12 @@
     }
 
     @media (max-width: 768px) {
+      .m-h-card-header {
+        min-height: 2rem;
+      }
+
       .card-width {
-        min-width: 50%;
+        min-width: 66%;
       }
     }
   </style>
@@ -68,7 +72,7 @@
       <div class="card card-block mr-2 me-2 card-width">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative h-100">
           <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-primary">Information</strong>
+            <strong class="d-inline-block mb-2 text-primary m-h-card-header">General information</strong>
             <h3 class="mb-0">Module I</h3>
             <p class="card-text mb-auto">Information about the history of welding, welding equipment and materials.</p>
             <a draggable="false" href="module-1/index.php" class="stretched-link">Continue reading</a>
@@ -81,7 +85,7 @@
       <div class="card card-block mr-2 me-2 card-width">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative h-100">
           <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-success">Materials</strong>
+            <strong class="d-inline-block mb-2 text-success m-h-card-header">Welding materials</strong>
             <h3 class="mb-0">Module II</h3>
             <p class="card-text mb-auto">Information about mechanical and chemical properties of stainless steel, aluminum.</p>
             <a draggable="false" href="module-2/index.php" class="stretched-link">Continue reading</a>
@@ -94,7 +98,7 @@
       <div class="card card-block mr-2 me-2 card-width">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative h-100">
           <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-secondary">Types</strong>
+            <strong class="d-inline-block mb-2 text-secondary m-h-card-header">Types of welding</strong>
             <h3 class="mb-0">Module III</h3>
             <p class="card-text mb-auto">Information about welding symbols, ISO system, Arc and Gas Welding.</p>
             <a draggable="false" href="module-3/index.php" class="stretched-link">Continue reading</a>
@@ -107,7 +111,7 @@
       <div class="card card-block mr-2 card-width">
         <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative h-100">
           <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-danger">Safety</strong>
+            <strong class="d-inline-block mb-2 text-danger m-h-card-header">Safety and Competition</strong>
             <h3 class="mb-0">Module IV</h3>
             <p class="card-text mb-auto">Information about health risks of welding fume, potential hazards from breathing in particulate fume.</p>
             <a draggable="false" href="module-4/index.php" class="stretched-link">Continue reading</a>
