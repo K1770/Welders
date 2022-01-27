@@ -41,12 +41,8 @@
     }
 
     @media (max-width: 768px) {
-      .g-0 {
-        min-height: 23rem;
-      }
-
       .m-w40 {
-        min-width: 60%;
+        min-width: 55%;
       }
     }
   </style>
